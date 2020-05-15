@@ -6,8 +6,14 @@ text resources from [justel](https://www.ejustice.just.fgov.be/cgi_loi/loi.pl) t
 
 See **example.md** for an example. (Original is: [here](http://www.ejustice.just.fgov.be/eli/loi/1804/03/21/1804032150/justel) )
 
+### Why Markdown ?
+It's a simple formatting language, able to achieve a nice result considering the rudimentary source.
+
+It's also readily convertible to other formats, while being human readable in its original form, not needing
+any specialized toolset other then a basic text editor.
+
 ### Usage
-This toolset needs python3.8 and pipenv
+This toolset needs python3.8 and pipenv.
 After cloning, do:
 
 ```bash

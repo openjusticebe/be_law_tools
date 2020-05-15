@@ -19,8 +19,12 @@ Testing justel2md
 
 > 1: L 2018-06-18/03, art. 3, 082; En vigueur : 31-03-2019
 
+<<<<<<< HEAD
 
   **Art. 3.**[1 (article 7 renuméroté)]1. L'exercice des droits civils est indépendant de la qualité de citoyen, laquelle ne s'acquiert et ne se conserve que conformément à la loi constitutionnelle.
+=======
+**Art. 3.**[1 (article 7 renuméroté)]1. L'exercice des droits civils est indépendant de la qualité de citoyen, laquelle ne s'acquiert et ne se conserve que conformément à la loi constitutionnelle.
+>>>>>>> f1587eb71cc8b9b306fff60871d5ba4da59d9033
 
 > 1: L 2018-06-18/03, art. 3, 082; En vigueur : 31-03-2019
 

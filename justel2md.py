@@ -12,7 +12,7 @@ TEST_URL = "http://www.ejustice.just.fgov.be/eli/loi/1804/03/21/1804032150/juste
 
 RE_FORMATS = [
     (r"\s*Texte\s*Table des matières\s*Début\s*", ""),
-    (r"Art\.  (?P<artnum>[\d/a-z\-]{1,20})\.", "**Art. \g<artnum>.**"),
+    (r"Art(icle)?\.  (?P<artnum>[\d/a-z\-]{1,20})\.", "**Art. \g<artnum>.**"),
     (r"^.*----------\s*$", ""),
     (r"^\u00A0{2}\((?P<refnum>\d{1,3})\)<(?P<ref>.*)>\s*$", "> \g<refnum>: \g<ref>\n\n"),
     (r"^(?P<titre>TITRE .*)$", "# \g<titre>"),
@@ -51,13 +51,10 @@ def main(clean):
         if r.status_code == 200:
             break
         time.sleep(2)
-    # soup = bs(r.text, 'html.parser')
-    # soup = bs(r.text, 'lxml')
     soup = bs(r.text, 'html5lib')
     table = soup.find('body').findChildren('table')[3]
     for br in soup.find_all('br'):
         br.replace_with("\n")
-    # textTable = el.findNext('table').findAll('tr')
     text = table.getText()
     for mod in RE_FORMATS:
         (reg, rep) = mod

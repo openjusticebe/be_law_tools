@@ -32,10 +32,20 @@ RE_CLEANUP = [
 ]
 
 
+def meta2md(data):
+    print('---')
+    for k, v in data.items():
+        print(f'{k}: {v}')
+    print('---')
+
+
 @click.command()
 @click.option('-c', '--clean', 'clean', is_flag=True)
 def main(clean):
-    click.echo("Testing justel2md")
+    meta2md({
+        'url': TEST_URL,
+        'description': 'Markdown conversion test'
+    })
     while True:
         r = requests.get(TEST_URL, allow_redirects=False)
         if r.status_code == 200:

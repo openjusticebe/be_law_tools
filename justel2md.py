@@ -12,7 +12,7 @@ TEST_URL = "http://www.ejustice.just.fgov.be/eli/loi/1804/03/21/1804032150/juste
 
 RE_FORMATS = [
     (r"\s*Texte\s*Table des matières\s*Début\s*", ""),
-    (r"Art\.  (?P<artnum>[\d/a-z\-]{1,20})\.", "**Art. \g<artnum>.**"),
+    (r"Art\.  (?P<artnum>[\d/a-z\-]{1,20})\.", "\n**Art. \g<artnum>.**"),
     (r"^.*----------\s*$", ""),
     (r"^\u00A0{2}\((?P<refnum>\d{1,3})\)<(?P<ref>.*)>\s*$", "> \g<refnum>: \g<ref>"),
     (r"^(?P<titre>TITRE .*)$", "# \g<titre>"),

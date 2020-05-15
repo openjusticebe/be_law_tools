@@ -13,9 +13,9 @@ Testing justel2md
 
 # Livre I DES PERSONNES.
 
-## Titre I DE LA JOUISSANCE ET DE LA PRIVATION DES DROITS CIVILS.
+# TITRE I. - DE LA JOUISSANCE ET DE LA PRIVATION DES DROITS CIVILS.
 
-  CHAPITRE I. [1 ...]1
+### Chapitre I  [1 ...]1
 
 > 1: L 2018-06-18/03, art. 3, 082; En vigueur : 31-03-2019
 
@@ -36,27 +36,27 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 3, 082; En vigueur : 31-03-2019
 
 
-  CHAPITRE II. [1 ...]1
+### Chapitre II  [1 ...]1
 
 > 1: L 2018-06-18/03, art. 3, 082; En vigueur : 31-03-2019
 
 
-  SECTION I. [1 ...]1
+#### Section I  [1 ...]1
 
 > 1: L 2018-06-18/03, art. 3, 082; En vigueur : 31-03-2019
 
 
-  SECTION II. [1 ...]1
+#### Section II  [1 ...]1
 
 > 1: L 2018-06-18/03, art. 3, 082; En vigueur : 31-03-2019
 
 
-## Titre II  [1 - DE L'ETAT CIVIL.]1
+# TITRE II. [1 - DE L'ETAT CIVIL.]1
 
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  CHAPITRE I. [1 - Principes généraux de l'état civil.]1
+### Chapitre I  [1 - Principes généraux de l'état civil.]1
 
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -77,7 +77,7 @@ Testing justel2md
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 2. [1 De l'officier de l'état civil]1
+#### Section 2  [1 De l'officier de l'état civil]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -124,7 +124,7 @@ Testing justel2md
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 3. [1 Des actes de l'état civil]1
+#### Section 3  [1 Des actes de l'état civil]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -187,7 +187,7 @@ Testing justel2md
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 4. [1 De la valeur probante des actes de l'état civil]1
+#### Section 4  [1 De la valeur probante des actes de l'état civil]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -225,7 +225,7 @@ Testing justel2md
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 5. [1 Des extraits et copies]1
+#### Section 5  [1 Des extraits et copies]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -278,7 +278,7 @@ Testing justel2md
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 6. [1 Des modifications des actes de l'état civil suite à une décision judiciaire qui rectifie l'acte ou qui modifie ou établit la filiation, ou suite à la rectification d'une erreur matérielle]1
+#### Section 6  [1 Des modifications des actes de l'état civil suite à une décision judiciaire qui rectifie l'acte ou qui modifie ou établit la filiation, ou suite à la rectification d'une erreur matérielle]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -302,7 +302,7 @@ Testing justel2md
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 7. [1 Mentions aux actes de l'état civil]1
+#### Section 7  [1 Mentions aux actes de l'état civil]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -320,7 +320,7 @@ Testing justel2md
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 8. [1 De la rectification des actes de l'état civil]1
+#### Section 8  [1 De la rectification des actes de l'état civil]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -370,7 +370,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 9. [1 De la responsabilité et du contrôle de l'officier de l'état civil]1
+#### Section 9  [1 De la responsabilité et du contrôle de l'officier de l'état civil]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -402,7 +402,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  CHAPITRE 2. [1 - Des différents actes de l'état civil.]1
+### Chapitre 2  [1 - Des différents actes de l'état civil.]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -436,7 +436,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 2. [1 Des actes de naissance]1
+#### Section 2  [1 Des actes de naissance]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -527,7 +527,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 3. [1 Des actes de reconnaissance]1
+#### Section 3  [1 Des actes de reconnaissance]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -564,7 +564,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 4. [1 De l'acte de déclaration de choix de nom]1
+#### Section 4  [1 De l'acte de déclaration de choix de nom]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -578,7 +578,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 5. [1 De l'acte de modification de l'enregistrement du sexe]1
+#### Section 5  [1 De l'acte de modification de l'enregistrement du sexe]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -590,7 +590,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 6. [1 De l'acte de mariage]1
+#### Section 6  [1 De l'acte de mariage]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -604,7 +604,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 7.[1 Des actes de décès]1
+#### Section 7 [1 Des actes de décès]1
 
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -687,7 +687,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 8. [1 De l'acte d'absence]1
+#### Section 8  [1 De l'acte d'absence]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -697,7 +697,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 9. [1 De l'acte de changement de prénom]1
+#### Section 9  [1 De l'acte de changement de prénom]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -709,7 +709,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 10.[1 De l'acte de changement de nom]1
+#### Section 10 [1 De l'acte de changement de nom]1
 
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -723,7 +723,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 11. [1 De l'acte de divorce]1
+#### Section 11  [1 De l'acte de divorce]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -737,7 +737,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 12. [1 De l'acte d'adoption]1
+#### Section 12  [1 De l'acte d'adoption]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -752,7 +752,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 13. [1 De l'acte de révocation ou de révision de l'adoption, de nouvelle modification d'enregistrement du sexe ou d'annulation]1
+#### Section 13  [1 De l'acte de révocation ou de révision de l'adoption, de nouvelle modification d'enregistrement du sexe ou d'annulation]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -769,7 +769,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 14. [1 Des actes de nationalité belge]1
+#### Section 14  [1 Des actes de nationalité belge]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -785,7 +785,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 15. [1 De l'acte établi sur la base d'un acte étranger]1
+#### Section 15  [1 De l'acte établi sur la base d'un acte étranger]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -809,7 +809,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 16. [1 De l'acte établi sur la base d'une décision judiciaire étrangère ou administrative étrangère]1
+#### Section 16  [1 De l'acte établi sur la base d'une décision judiciaire étrangère ou administrative étrangère]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -820,7 +820,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  CHAPITRE III. [1 - De la banque de données des actes de l'état civil.]1
+### Chapitre III  [1 - De la banque de données des actes de l'état civil.]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -855,7 +855,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 2. [1 De la gestion de la BAEC]1
+#### Section 2  [1 De la gestion de la BAEC]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -916,7 +916,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-  Section 3. [1 De l'accès à la BAEC]1
+#### Section 3  [1 De l'accès à la BAEC]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -1017,7 +1017,7 @@ Testing justel2md
   **Art. 101.**
   <Abrogé par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019> 
 
-## Titre III DU DOMICILE.
+# TITRE III. - DU DOMICILE.
 
   **Art. 102.** Le domicile de tout Belge, quant à l'exercice de ses droits civils, est au lieu où il a son principal établissement.
 
@@ -1040,9 +1040,9 @@ Testing justel2md
 
   **Art. 111.** Lorsqu'un acte contiendra, de la part des parties ou de l'une d'elles, élection de domicile pour l'exécution de ce même acte dans un autre lieu que celui du domicile réel, les significations, demandes et poursuites relatives à cet acte, pourront être faites au domicile convenu, et devant le juge de ce domicile.
 
-## Titre IV DES ABSENTS.
+# TITRE IV. - DES ABSENTS.
 
-  CHAPITRE I. - [DE L'ABSENCE]. <L 2007-05-09/44, art. 2, 037;  En vigueur :  01-07-2007>
+### Chapitre I [DE L'ABSENCE]. <L 2007-05-09/44, art. 2, 037;  En vigueur :  01-07-2007>
 
 #### Section I  - De la présomption d'absence <Insérée par L 2007-05-09/44, art. 3;  En vigueur :  01-07-2007>
 
@@ -1150,7 +1150,7 @@ Testing justel2md
 > 1: L 2013-07-30/23, art. 8, 065; En vigueur : 01-09-2014
 
 
-  Section II. - De la déclaration d'absence <Insérée par L 2007-05-09/44, art. 11;  En vigueur :  01-07-2007>
+#### Section II  - De la déclaration d'absence <Insérée par L 2007-05-09/44, art. 11;  En vigueur :  01-07-2007>
 
   **Art. 118.**<L 2007-05-09/44, art. 12, 037;  En vigueur :  01-07-2007> § 1er. Lorsqu'il s'est écoulé cinq ans depuis le jugement qui a constaté la présomption d'absence, ou sept ans depuis les dernières nouvelles reçues de l'absent, l'absence peut être déclarée par le tribunal de [1 la famille]1 à la demande de toute personne intéressée ou du procureur du Roi.
 
@@ -1202,11 +1202,11 @@ Testing justel2md
 > 1: L 2011-08-13/17, art. 2, 054; En vigueur : 01-04-2012
 
 
-  Section III. - Des effets de l'absence ou de la présomption d'absence sur les enfants mineurs <Insérée par L 2007-05-09/44, art. 20;  En vigueur :  01-07-2007>
+#### Section III  - Des effets de l'absence ou de la présomption d'absence sur les enfants mineurs <Insérée par L 2007-05-09/44, art. 20;  En vigueur :  01-07-2007>
 
   **Art. 125.** <L 2007-05-09/44, art. 21, 037;  En vigueur :  01-07-2007> S'il existe des enfants mineurs, une copie certifiée conforme de toute décision rendue en application des articles 112, 113, 117, 118 et 122 est notifiée par le greffier au juge de paix compétent territorialement. Celui-ci procède conformément aux règles de la tutelle.
 
-  CHAPITRE II. - De la déclaration judiciaire de décès <Inséré par L 2007-05-09/44, art. 22;  En vigueur :  01-07-2007>
+### Chapitre II De la déclaration judiciaire de décès <Inséré par L 2007-05-09/44, art. 22;  En vigueur :  01-07-2007>
 
   **Art. 126.**<L 2007-05-09/44, art. 23, 037;  En vigueur :  01-07-2007> En l'absence d'acte de décès, le tribunal de [1 la famille]1 peut, à la demande de toute personne intéressée ou du procureur du Roi, agissant d'office ou sur invitation du ministre de la Justice, déclarer le décès de toute personne disparue dans des circonstances de nature à mettre sa vie en danger, lorsque son corps n'a pu être retrouvé ou n'a pu être identifié, et que son décès peut être considéré comme certain eu égard aux circonstances.
 
@@ -1260,7 +1260,7 @@ Testing justel2md
 
   **Art. 135.** <L 2007-05-09/44, art. 33, 037;  En vigueur :  01-07-2007> Les greffiers en chef des cours et tribunaux informent immédiatement le ministre des Affaires étrangères de toute procédure judiciaire poursuivie en vertu du présent chapitre.
 
-  TITRE IV/1. [1 - De la modification de l'enregistrement du sexe.]1
+# TITRE IV/1. [1 - De la modification de l'enregistrement du sexe.]1
 
 > 1: Inséré par L 2018-06-18/03, art. 11, 082; En vigueur : 31-03-2019
 
@@ -1340,9 +1340,9 @@ Testing justel2md
 
   **Art. 142.** [Abrogé] <L 2007-05-09/44, art. 34, 037;  En vigueur :  01-07-2007>
 
-## Titre V DU MARIAGE.
+# TITRE V. - DU MARIAGE.
 
-  CHAPITRE I. - DES QUALITES ET CONDITIONS REQUISES POUR POUVOIR CONTRACTER MARIAGE.
+### Chapitre I DES QUALITES ET CONDITIONS REQUISES POUR POUVOIR CONTRACTER MARIAGE.
 
   **Art. 143.** <L 2003-02-13/36, art. 3, 015;  En vigueur :  01-06-2003> Deux personnes de sexe différent ou de même sexe peuvent contracter mariage.
   Si le mariage a été contracté entre des personnes de même sexe, l'article 315 n'est pas applicable.
@@ -1436,7 +1436,7 @@ Testing justel2md
 > 1: L 2018-12-21/09, art. 118, 086; En vigueur : 10-01-2019
 
 
-  CHAPITRE II. [1 - Des formalités relatives au mariage.]1
+### Chapitre II  [1 - Des formalités relatives au mariage.]1
 
 > 1: L 2018-06-18/03, art. 15, 082; En vigueur : 31-03-2019
 
@@ -1533,7 +1533,7 @@ Testing justel2md
 > 1: Inséré par L 2018-06-18/03, art. 23, 082; En vigueur : 31-03-2019
 
 
-  Section 2. [1 De la célébration du mariage]1
+#### Section 2  [1 De la célébration du mariage]1
 
 > 1: Inséré par L 2018-06-18/03, art. 24, 082; En vigueur : 31-03-2019
 
@@ -1595,7 +1595,7 @@ Testing justel2md
 
   **Art. 171.** [Abrogé] <L 2004-07-16/31, art. 139, 020;  En vigueur :  01-10-2004>
 
-  CHAPITRE III. <Abrogé par L 2009-02-19/36, art. 4, 044; En vigueur : 21-03-2009> 
+### Chapitre III  <Abrogé par L 2009-02-19/36, art. 4, 044; En vigueur : 21-03-2009> 
 
   **Art. 172.**
   <Abrogé par L 2009-02-19/36, art. 4, 044; En vigueur : 21-03-2009> 
@@ -1621,7 +1621,7 @@ Testing justel2md
   **Art. 179.**
   <Abrogé par L 2009-02-19/36, art. 4, 044; En vigueur : 21-03-2009> 
 
-  CHAPITRE IV. - DES DEMANDES EN NULLITE DE MARIAGE.
+### Chapitre IV DES DEMANDES EN NULLITE DE MARIAGE.
 
   **Art. 180.** [Alinéa 1 abrogé] <L 2007-04-25/76, art. 4, 036;  En vigueur :  25-06-2007>
   Lorsqu'il y a eu erreur dans la personne, le mariage ne peut être attaqué que par celui des deux époux qui a été induit en erreur.
@@ -1703,7 +1703,7 @@ Testing justel2md
 
   **Art. 202.** <L 31-03-1987, art. 30>. Il produit également ses effets en faveur des enfants, même si aucun des époux n'a été de bonne foi.
 
-  CHAPITRE V. - DES OBLIGATIONS QUI NAISSENT DU MARIAGE [OU DE LA FILIATION].<L 31-03-1987, art. 31>.
+### Chapitre V DES OBLIGATIONS QUI NAISSENT DU MARIAGE [OU DE LA FILIATION].<L 31-03-1987, art. 31>.
 
   **Art. 203.**[1 § 1er. Les père et mère sont tenus d'assumer, à proportion de leurs facultés, l'hébergement, l'entretien, la santé, la surveillance, l'éducation, la formation et l'épanouissement de leurs enfants. Si la formation n'est pas achevée, l'obligation se poursuit après la majorité de l'enfant.
 
@@ -1833,7 +1833,7 @@ Testing justel2md
 
   **Art. 211.** Le tribunal prononcera également si le père ou la mère qui offrira de recevoir, nourrir et entretenir dans sa demeure, l'enfant à qui il devra des aliments, devra dans ce cas être dispensé de payer la pension alimentaire.
 
-  CHAPITRE VI. - DES DROITS ET DEVOIRS RESPECTIFS DES EPOUX.
+### Chapitre VI DES DROITS ET DEVOIRS RESPECTIFS DES EPOUX.
 
   **Art. 212.** <L 14-07-1976, art. 1>. Les droits, obligations et pouvoirs des époux sont réglés par les dispositions du présent chapitre, applicables par le seul fait du mariage.
   Ils sont en outre définis par les dispositions réglant le régime légal ou par celles de leur contrat de mariage, qui ne peuvent déroger aux dispositions du présent chapitre.
@@ -1950,19 +1950,19 @@ Testing justel2md
 
   **Art. 226septies.** [Abrogé] <L 14-07-1976, art. 1>.
 
-  CHAPITRE VII. - DE LA DISSOLUTION DU MARIAGE.
+### Chapitre VII DE LA DISSOLUTION DU MARIAGE.
 
   **Art. 227.** Le mariage se dissout :
  1. Par la mort de l'un des époux;
  2. Par le divorce [...]. <L 15-12-1949, art. 28, 2>
 
-  CHAPITRE VIII. - DES SECONDS MARIAGES.
+### Chapitre VIII DES SECONDS MARIAGES.
 
   **Art. 228.** [Abrogé] <L 31-03-1987, art. 35>
 
-## Titre VI DU DIVORCE.
+# TITRE VI. - DU DIVORCE.
 
-  CHAPITRE I. - DES CAUSES DU DIVORCE.
+### Chapitre I DES CAUSES DU DIVORCE.
 
   **Art. 229.** <L 2007-04-27/00, art. 2, 034;  En vigueur :  01-09-2007> § 1er. Le divorce est prononcé lorsque le juge constate la désunion irrémédiable entre les époux. La désunion est irrémédiable lorsqu'elle rend raisonnablement impossible la poursuite de la vie commune et la reprise de celle-ci entre eux. La preuve de la désunion irrémédiable peut être rapportée par toutes voies de droit.
 
@@ -1988,9 +1988,9 @@ Testing justel2md
 
   **Art. 233.** [Abrogé] <L 2007-04-27/00, art. 4, 3°, 034;  En vigueur :  01-09-2007>
 
-  CHAPITRE II. - DU DIVORCE POUR CAUSE DETERMINEE.
+### Chapitre II DU DIVORCE POUR CAUSE DETERMINEE.
 
-  SECTION I. - DES FORMES DU DIVORCE POUR CAUSE DETERMINEE.
+#### Section I  - DES FORMES DU DIVORCE POUR CAUSE DETERMINEE.
 
   **Art. 234.** [Abrogé] <L 10-10-1967, art. 18>.
 
@@ -2060,7 +2060,7 @@ Testing justel2md
 
   **Art. 266bis.** [Abrogé] <L 10-10-1967, art. 18>.
 
-  SECTION II. - DES MESURES PROVISOIRES AUXQUELLES PEUT DONNER LIEU LA DEMANDE EN DIVORCE POUR CAUSE DETERMINEE.
+#### Section II  - DES MESURES PROVISOIRES AUXQUELLES PEUT DONNER LIEU LA DEMANDE EN DIVORCE POUR CAUSE DETERMINEE.
 
   **Art. 267.** [Abrogé] <L 10-10-1967, art. 18>.
 
@@ -2072,7 +2072,7 @@ Testing justel2md
 
   **Art. 271.** [Abrogé] <L 10-10-1967, art. 18>.
 
-  SECTION III. - DES FINS DE NON-RECEVOIR CONTRE L'ACTION EN DIVORCE POUR CAUSE DETERMINEE.
+#### Section III  - DES FINS DE NON-RECEVOIR CONTRE L'ACTION EN DIVORCE POUR CAUSE DETERMINEE.
 
   **Art. 272.** [Abrogé] <L 10-10-1967, art. 18>.
 
@@ -2080,7 +2080,7 @@ Testing justel2md
 
   **Art. 274.** [Abrogé] <L 10-10-1967, art. 18>.
 
-  CHAPITRE III. - DU DIVORCE PAR CONSENTEMENT MUTUEL.
+### Chapitre III DU DIVORCE PAR CONSENTEMENT MUTUEL.
 
   **Art. 275.** [Abrogé] <L 2007-04-27/00, art. 4, 4°, 034;  En vigueur :  01-09-2007>
 
@@ -2124,7 +2124,7 @@ Testing justel2md
 
   **Art. 294bis.** [Abrogé] <L 10-10-1967, art. 18>.
 
-  CHAPITRE IV. - DES EFFETS DU DIVORCE.
+### Chapitre IV DES EFFETS DU DIVORCE.
 
   **Art. 295.** <L 2007-05-10/61, art. 2, 042;  En vigueur :  13-08-2007> Si les époux divorcés se réunissent en faisant célébrer de nouveau leur mariage, l'article 1465 ne sera applicable que s'il existe des enfants qui ne leur sont pas communs.
 
@@ -2224,7 +2224,7 @@ Testing justel2md
 
   **Art. 307bis.** [Abrogé] <L 2007-04-27/00, art. 11, 3°, 034;  En vigueur :  01-09-2007>
 
-  CHAPITRE V. - DE LA SEPARATION DE CORPS.
+### Chapitre V DE LA SEPARATION DE CORPS.
 
   **Art. 308.** <L 2007-04-27/00, art. 12, 034;  En vigueur :  01-09-2007> Le devoir de secours subsiste après le prononcé de la séparation de corps.
 
@@ -2245,9 +2245,9 @@ Testing justel2md
 
   **Art. 311quater.** [Abrogé] <L 20-07-1962, art. 25>.
 
-## Titre VII [...] DE LA FILIATION.
+# TITRE VII. - [...] DE LA FILIATION.
 
-  CHAPITRE I. - DE L'ETABLISSEMENT DE LA FILIATION MATERNELLE.
+### Chapitre I DE L'ETABLISSEMENT DE LA FILIATION MATERNELLE.
 
   **Art. 312.** <L 31-03-1987, art. 38>. § 1er. L'enfant a pour mère la personne qui est désignée comme telle dans l'acte de naissance.
 
@@ -2291,9 +2291,9 @@ Testing justel2md
 > 2: L 2018-12-21/09, art. 119, 086; En vigueur : 10-01-2019
 
 
-  CHAPITRE 2. - DE L'ETABLISSEMENT DE LA FILIATION PATERNELLE.
+### Chapitre 2 DE L'ETABLISSEMENT DE LA FILIATION PATERNELLE.
 
-  SECTION 1. - DE LA PRESOMPTION DE PATERNITE.
+#### Section 1  - DE LA PRESOMPTION DE PATERNITE.
 
   **Art. 315.** <L 31-03-1987, art. 38>. L'enfant né pendant le mariage ou dans les 300 jours qui suivent la dissolution ou l'annulation du mariage, a pour père le mari.
 
@@ -2345,7 +2345,7 @@ Testing justel2md
 > 3: L 2018-12-21/09, art. 101, 086; En vigueur : 10-01-2019
 
 
-  SECTION 2. - DE LA RECONNAISSANCE.
+#### Section 2  - DE LA RECONNAISSANCE.
 
   **Art. 319.**[1 Lorsque la paternité n'est pas établie en vertu des articles 315 ou 317, ni la comaternité visée au chapitre 2/1, le père peut reconnaître l'enfant aux conditions fixées à l'article 329bis.]1
 
@@ -2372,7 +2372,7 @@ Testing justel2md
 > 2: L 2018-12-21/09, art. 119, 086; En vigueur : 10-01-2019
 
 
-  SECTION 3. - DE LA RECHERCHE DE PATERNITE.
+#### Section 3  - DE LA RECHERCHE DE PATERNITE.
 
   **Art. 322.**[2 Lorsque la paternité n'est pas établie, ni en vertu des articles 315 ou 317, ni par une reconnaissance, et que la comaternité visée au chapitre 2/1 n'est pas non plus établie, elle peut l'être par un jugement prononcé par le tribunal de la famille, aux conditions fixées à l'article 332quinquies.]2
   [Si le défendeur est marié et si l'enfant a été conçu pendant le mariage par une femme dont il n'est pas l'époux, le jugement qui établit la filiation doit être signifié à l'époux ou à l'épouse. Jusqu'à cette signification, il n'est opposable ni à l'époux ou l'épouse, ni aux enfants nés du mariage avec le défendeur ou adoptés par les deux époux.] <L 2003-02-13/36, art. 12, 015;  En vigueur :  01-06-2003>
@@ -2412,7 +2412,7 @@ Testing justel2md
 > 1: Inséré par L 2014-05-05/08, art. 10, 067; En vigueur : 01-01-2015
 
 
-  SECTION 2. [1 - DE LA PRESOMPTION DE COMATERNITE.]1
+#### Section 2  [1 - DE LA PRESOMPTION DE COMATERNITE.]1
 
 > 1: Inséré par L 2014-05-05/08, art. 11, 067; En vigueur : 01-01-2015
 
@@ -2445,7 +2445,7 @@ Testing justel2md
 > 1: Inséré par L 2014-05-05/08, art. 13, 067; En vigueur : 01-01-2015
 
 
-  SECTION 3. [1 - DE LA RECONNAISSANCE.]1
+#### Section 3  [1 - DE LA RECONNAISSANCE.]1
 
 > 1: Inséré par L 2014-05-05/08, art. 14, 067; En vigueur : 01-01-2015
 
@@ -2506,7 +2506,7 @@ Testing justel2md
 > 3: L 2018-12-21/09, art. 105, 086; En vigueur : 10-01-2019
 
 
-  SECTION 4. [1 - DE LA RECHERCHE DE COMATERNITE.]1
+#### Section 4  [1 - DE LA RECHERCHE DE COMATERNITE.]1
 
 > 1: Inséré par L 2014-05-05/08, art. 19, 067; En vigueur : 01-01-2015
 
@@ -2535,13 +2535,13 @@ Testing justel2md
 > 3: L 2018-12-21/09, art. 119, 086; En vigueur : 10-01-2019
 
 
-  CHAPITRE 3. - DISPOSITIONS COMMUNES CONCERNANT LE MODE D'ETABLISSEMENT DE LA FILIATION.
+### Chapitre 3 DISPOSITIONS COMMUNES CONCERNANT LE MODE D'ETABLISSEMENT DE LA FILIATION.
 
-  SECTION 1. - DU MOMENT DE LA CONCEPTION.
+#### Section 1  - DU MOMENT DE LA CONCEPTION.
 
   **Art. 326.** <L 31-03-1987, art. 38>. L'enfant est présumé, sauf preuve contraire, avoir été conçu dans la période qui s'étend du 300e au 180e jour avant la naissance et au moment qui lui est le plus favorable, compte tenu de l'objet de sa demande ou du moyen de défense proposé par lui.
 
-  SECTION 2. - DE LA RECONNAISSANCE.
+#### Section 2  - DE LA RECONNAISSANCE.
 
   **Art. 327.**[1 § 1er. La reconnaissance est faite dans l'acte de naissance ou par acte de reconnaissance.
 
@@ -2740,9 +2740,9 @@ Testing justel2md
 > 2: L 2018-06-18/03, art. 39, 082; En vigueur : 31-03-2019
 
 
-  CHAPITRE 4. - ACTIONS RELATIVES A LA FILIATION.
+### Chapitre 4 ACTIONS RELATIVES A LA FILIATION.
 
-  SECTION 1. - GENERALITES.
+#### Section 1  - GENERALITES.
 
   **Art. 331.**<L 31-03-1987, art. 38>. § 1. [1 ...]1.
 
@@ -2801,7 +2801,7 @@ Testing justel2md
 > 1: L 2013-07-30/23, art. 38, 065; En vigueur : 01-09-2014
 
 
-  SECTION 2. - DES ACTIONS EN PARTICULIER.
+#### Section 2  - DES ACTIONS EN PARTICULIER.
 
   **Art. 332.** [Abrogé] <L 2006-07-01/75, art. 24, 030;  En vigueur :  01-07-2007>
 
@@ -2843,7 +2843,7 @@ Testing justel2md
 > 3: L 2018-12-21/09, art. 109, 086; En vigueur : 10-01-2019
 
 
-  SECTION 3. - DE LA PUBLICATION DE LA DECISION JUDICIAIRE [1 dans la BAEC]1.
+#### Section 3  - DE LA PUBLICATION DE LA DECISION JUDICIAIRE [1 dans la BAEC]1.
 
 > 1: L 2018-06-18/03, art. 40, 082; En vigueur : 31-03-2019
 
@@ -2857,7 +2857,7 @@ Testing justel2md
 > 1: L 2018-06-18/03, art. 41, 082; En vigueur : 31-03-2019
 
 
-  CHAPITRE 5. - DES EFFETS DE LA FILIATION.
+### Chapitre 5 DES EFFETS DE LA FILIATION.
 
   **Art. 334.** <L 31-03-1987, art. 38>. Quel que soit le mode d'établissement de la filiation, les enfants et leurs descendants ont les mêmes droits et les mêmes obligations à l'égard des père et mère et de leurs parents et alliés, et les père et mère et leurs parents et alliés ont les mêmes droits et les mêmes obligations à l'égard des enfants et de leurs descendants.
 
@@ -2952,7 +2952,7 @@ Testing justel2md
 > 3: L 2018-06-18/03, art. 43/1, 082; En vigueur : 31-03-2019
 
 
-  CHAPITRE 6. - DE L'ACTION EN RECLAMATION D'UNE PENSION POUR L'ENTRETIEN, L'EDUCATION ET LA FORMATION ADEQUATE.
+### Chapitre 6 DE L'ACTION EN RECLAMATION D'UNE PENSION POUR L'ENTRETIEN, L'EDUCATION ET LA FORMATION ADEQUATE.
 
   **Art. 336.**[1 L'enfant dont la filiation paternelle n'est pas établie, peut réclamer à celui qui a eu des relations avec sa mère pendant la période légale de conception, une contribution alimentaire en vertu de l'article 203, § 1er.]1
 
@@ -3005,7 +3005,7 @@ Testing justel2md
 
   **Art. 342.** [Abrogé] <L 31-03-1987, art. 38>.
 
-## Titre VIII De l'adoption <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
+# TITRE VIII. - De l'adoption <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
 ### Chapitre I Droit interne. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
@@ -3029,7 +3029,7 @@ Testing justel2md
 > 3: L 2018-12-21/09, art. 119, 086; En vigueur : 10-01-2019
 
 
-  Section 2. - Dispositions communes aux deux sortes d'adoption. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
+#### Section 2  - Dispositions communes aux deux sortes d'adoption. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
 
 
@@ -3239,7 +3239,7 @@ Testing justel2md
 
   **Art. 352.** <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005> Nul ne peut intervenir comme intermédiaire dans une adoption sans avoir été préalablement agréé à cette fin par la communauté compétente.
 
-  Section 3. - Dispositions propres à chaque sorte d'adoption <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
+#### Section 3  - Dispositions propres à chaque sorte d'adoption <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
 
 
@@ -3443,7 +3443,7 @@ Testing justel2md
   **Art. 356.**4. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005> L'adoption plénière est irrévocable.
   La révision est possible conformément à l'article 351.
 
-  CHAPITRE II. - Droit international. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
+### Chapitre II Droit international. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
 #### Section 1  - Dispositions particulières de droit international privé. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
@@ -3464,7 +3464,7 @@ Testing justel2md
 
   **Art. 359-6.** <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005> La nullité d'une adoption ne peut être prononcée en Belgique, même si le droit de l'Etat où elle a été établie le permet.
 
-  Section 2. - De l'établissement d'une adoption impliquant le déplacement international d'un enfant. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
+#### Section 2  - De l'établissement d'une adoption impliquant le déplacement international d'un enfant. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
 
 
@@ -3631,7 +3631,7 @@ Testing justel2md
 
   **Art. 363-6.** <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005> En cas de rapatriement intervenant en vertu des articles 363-4 et 363-5, les frais de séjour, de soins et de voyage de l'enfant incombent solidairement à l'adoptant ou aux adoptants et, le cas échéant, à l'organisme agréé qui est intervenu à leur demande et dont la responsabilité est établie, ou à toute personne qui est intervenue illégalement comme intermédiaire dans l'adoption.
 
-  Section 3. - De l'efficacité en Belgique des décisions étrangères en matière d'adoption. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
+#### Section 3  - De l'efficacité en Belgique des décisions étrangères en matière d'adoption. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
 
 
@@ -3804,7 +3804,7 @@ Testing justel2md
 > 2: L 2018-06-18/03, art. 51, 082; En vigueur : 31-03-2019
 
 
-  CHAPITRE III. - Formalités administratives <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
+### Chapitre III Formalités administratives <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
   **Art. 368-1.**[1 § 1er . L'officier de l'état civil est compétent pour établir :
  * un acte d'adoption à la suite d'une décision rendue en Belgique qui prononce, convertit, révoque ou révise une adoption;
@@ -3865,7 +3865,7 @@ Testing justel2md
 
   **Art. 370.** [Abrogé] <L 2003-04-24/32, art. 3, 017;  En vigueur :  01-09-2005>
 
-  TITRE VIII/1. [1 - Des noms et prénoms.]1
+# TITRE VIII/1. [1 - Des noms et prénoms.]1
 
 > 1: Inséré par L 2018-06-18/03, art. 56, 082; En vigueur : 31-03-2019
 
@@ -3881,7 +3881,7 @@ Testing justel2md
 > 1: Inséré par L 2018-06-18/03, art. 58, 082; En vigueur : 31-03-2019
 
 
-  CHAPITRE 2. [1 - Prénoms autorisés.]1
+### Chapitre 2  [1 - Prénoms autorisés.]1
 
 > 1: Inséré par L 2018-06-18/03, art. 59, 082; En vigueur : 31-03-2019
 
@@ -3891,7 +3891,7 @@ Testing justel2md
 > 1: Inséré par L 2018-06-18/03, art. 60, 082; En vigueur : 31-03-2019
 
 
-  CHAPITRE 3. [1 - Changement de nom et de prénoms.]1
+### Chapitre 3  [1 - Changement de nom et de prénoms.]1
 
 > 1: Inséré par L 2018-06-18/03, art. 61, 082; En vigueur : 31-03-2019
 
@@ -3986,7 +3986,7 @@ Testing justel2md
 > 1: Inséré par L 2018-06-18/03, art. 68, 082; En vigueur : 31-03-2019
 
 
-  TITRE VIIIbis. - DE L'ABANDON D'UN ENFANT MINEUR. [abrogé] <L 1999-05-07/58, art. 2, 007;  En vigueur :  09-07-1999>
+# TITRE VIIIbis. - DE L'ABANDON D'UN ENFANT MINEUR. [abrogé] <L 1999-05-07/58, art. 2, 007;  En vigueur :  09-07-1999>
 
   **Art. 370bis.** [abrogé] <L 1999-05-07/58, art. 2, 007;  En vigueur :  09-07-1999>
 
@@ -3994,7 +3994,7 @@ Testing justel2md
 
   **Art. 370quater.** [abrogé] <L 1999-05-07/58, art. 2, 007;  En vigueur :  09-07-1999>
 
-  TITRE IX. [1 - De l'autorité parentale et de l'accueil familial.]1
+# TITRE IX. [1 - De l'autorité parentale et de l'accueil familial.]1
 
 > 1: L 2017-03-19/08, art. 2, 076; En vigueur : 01-09-2017
 
@@ -4149,7 +4149,7 @@ Testing justel2md
 > 2: L 2014-05-08/02, art. 47, 066; En vigueur : 01-09-2014
 
 
-  CHAPITRE II. [1 - De l'accueil familial.]1
+### Chapitre II  [1 - De l'accueil familial.]1
 
 > 1: Inséré par L 2017-03-19/08, art. 5, 076; En vigueur : 01-09-2017
 
@@ -4232,15 +4232,15 @@ Testing justel2md
 > 1: Inséré par L 2017-03-19/08, art. 16, 076; En vigueur : 01-09-2017
 
 
-  TITRE X. - DE LA MINORITE.DE LA TUTELLE ET DE L'EMANCIPATION.
+# TITRE X. - DE LA MINORITE.DE LA TUTELLE ET DE L'EMANCIPATION.
 
-  CHAPITRE I. - DE LA MINORITE.
+### Chapitre I DE LA MINORITE.
 
   **Art. 388.** Le mineur est l'individu de l'un et de l'autre sexe qui n'a point encore l'âge de [dix-huit] ans accomplis. <L 19-01-1990, art. 1>.
 
-  CHAPITRE II. <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> - DE LA TUTELLE.
+### Chapitre II  <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> - DE LA TUTELLE.
 
-  Section I. <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> - De l'ouverture de la tutelle.
+#### Section I  <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> - De l'ouverture de la tutelle.
 
   **Art. 389.**[1 La tutelle des enfants mineurs s'ouvre si les père et mère sont décédés, légalement inconnus, dans l'impossibilité durable d'exercer l'autorité parentale ou incapables d'exprimer leur volonté.
    A moins qu'elle ne résulte d'une décision explicite prise conformément à l'article 492/1, d'une absence présumée ou d'une absence déclarée, cette impossibilité est constatée par le tribunal [2 de la famille]2 conformément à l'article 1236bis du Code judiciaire.]1
@@ -4251,7 +4251,7 @@ Testing justel2md
 > 2: L 2014-05-12/02, art. 12, 003; En vigueur : 01-09-2014
 
 
-  Section II. <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> - De l'organisation de la tutelle.
+#### Section II  <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> - De l'organisation de la tutelle.
 
   **Art. 390.** <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> Sous réserve de ce qui est prévu à l'article 13, § 2, de la loi du 31 décembre 1851 sur les consulats et la juridiction consulaire, l'organisation et la surveillance de la tutelle incombent au juge de paix du domicile du mineur, tel qu'il est déterminé par l'article 36 du Code judiciaire, ou, à défaut de domicile, au juge de paix de la résidence du mineur.
   Le juge de paix tutélaire est immuable.
@@ -4306,7 +4306,7 @@ Testing justel2md
   **Art. 401.** <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> Lorsqu'il y a lieu de remplacer le tuteur, la désignation du nouveau tuteur se fait conformément à l'article 393, sans préjudice de l'article 391.
   Le nouveau tuteur entre en fonction dès le prononcé de l'ordonnance.
 
-  Section III. <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> - Du subrogé tuteur.
+#### Section III  <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> - Du subrogé tuteur.
 
   **Art. 402.** <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> Dans toute tutelle, il y a un subrogé tuteur que le juge de paix nomme après s'être assuré de son acceptation.
   Si le tuteur est parent ou allié du mineur dans une ligne, le subrogé tuteur est, de préférence, choisi dans l'autre ligne.
@@ -4319,7 +4319,7 @@ Testing justel2md
   **Art. 404.** <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> Le subrogé tuteur représente le mineur lorsque les intérêts de celui-ci sont en opposition avec ceux du tuteur. Si les intérêts du subrogé tuteur sont également en opposition avec ceux du mineur, le juge de paix nomme un tuteur ad hoc à la requête de tout intéressé ou même d'office, ainsi qu'un subrogé tuteur ad hoc.
   Le subrogé tuteur ne remplace pas de plein droit le tuteur lorsque la tutelle devient vacante. Il doit, dans ce cas, sous peine d'indemnisation du dommage qui pourrait en résulter pour le mineur, provoquer la nomination d'un nouveau tuteur.
 
-  Section IV. <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> - Du fonctionnement de la tutelle.
+#### Section IV  <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> - Du fonctionnement de la tutelle.
 
   **Art. 405.** <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> § 1er. Le tuteur prend soin de la personne du mineur. Il l'éduque en se conformant aux principes éventuellement adoptés par les parents, notamment en ce qui concerne les questions visées à l'article 374, alinéa 2.
   Il représente le mineur dans tous les actes de la vie civile.
@@ -4408,7 +4408,7 @@ Testing justel2md
   **Art. 412.** <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> Le juge de paix peut prendre toutes mesures pour s'enquérir de la situation familiale, morale et matérielle du mineur, ainsi que de ses conditions de vie.
   Il peut notamment demander au procureur du Roi de prendre, à l'intervention du service social compétent, tous renseignements utiles concernant ces différents points.
 
-  Section V. <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> - Des comptes et du rapport de la tutelle.
+#### Section V  <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> - Des comptes et du rapport de la tutelle.
 
   **Art. 413.** <L 2001-04-29/39, art. 13, 011;  En vigueur :  01-08-2001> Chaque année, le tuteur dépose au dossier de la procédure le compte de sa gestion. Ce compte est également remis au subrogé tuteur et au mineur âgé de quinze ans. Le juge de paix peut, d'office ou à la demande du subrogé tuteur, convoquer le tuteur en chambre du conseil pour être entendu en ses explications.
   Le Roi détermine la forme et le contenu des comptes de gestion.
@@ -4469,7 +4469,7 @@ Testing justel2md
 
   **Art. 475septies.** <L 31-03-1987, art. 58>. Le tuteur officieux qui a eu l'administration de quelque bien de son pupille, doit rendre compte de sa gestion [conformément aux articles 413 à 420]. <L 2001-04-29/39, art. 17, 013;  En vigueur :  01-08-2001>
 
-  CHAPITRE III. - DE L'EMANCIPATION.
+### Chapitre III DE L'EMANCIPATION.
 
   **Art. 476.** Le mineur est émancipé de plein droit par le mariage.
   [Chacun des époux est de droit curateur de son conjoint mineur. Si l'un et l'autre sont mineurs, la curatelle est organisée conformément à l'article 480.] <L 30-04-1958, art. 4>.
@@ -4519,7 +4519,7 @@ Testing justel2md
 
   **Art. 487.** [Abrogé] <L 19-01-1990, art. 33>.
 
-  CHAPITRE IV. 
+### Chapitre IV  
   <Abrogé par L 2013-03-17/14, art. 25, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)> 
 
   **Art. 487bis.**
@@ -4543,12 +4543,12 @@ Testing justel2md
   **Art. 487octies.**
   <Abrogé par L 2013-03-17/14, art. 25, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)> 
 
-  TITRE XI. - [1 De la majorité et des personnes protégées]1
+# TITRE XI. - [1 De la majorité et des personnes protégées]1
 
 > 1: L 2013-03-17/14, art. 26, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
 
-  CHAPITRE I. - DE LA MAJORITE.
+### Chapitre I DE LA MAJORITE.
 
   **Art. 488.** <L 19-01-1990, art. 2>. La majorité est fixée à dix-huit ans accomplis; à cet âge, on est capable de tous les actes de la vie civile.
 
@@ -4724,7 +4724,7 @@ Testing justel2md
 > 2: L 2018-04-15/14, art. 252, 088; En vigueur : 01-11-2018
 
 
-  CHAPITRE II. - [1 Des personnes protégées]1
+### Chapitre II [1 Des personnes protégées]1
 
 > 1: L 2013-03-17/14, art. 28, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
@@ -4748,7 +4748,7 @@ Testing justel2md
 > 1: Inséré par L 2013-03-17/14, art. 31, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
 
-  Section 2. - [1 De la protection extrajudiciaire]1
+#### Section 2  - [1 De la protection extrajudiciaire]1
 
 > 1: Inséré par L 2013-03-17/14, art. 32, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
@@ -4821,7 +4821,7 @@ Testing justel2md
 > 2: L 2018-12-21/09, art. 9, 086; En vigueur : 01-03-2019
 
 
-  Section 3. - [1 De la protection judiciaire]1
+#### Section 3  - [1 De la protection judiciaire]1
 
 > 1: Inséré par L 2013-03-17/14, art. 37, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
@@ -5047,7 +5047,7 @@ Testing justel2md
 > 1: L 2013-03-17/14, art. 54, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
 
-  Section 2. - [1 De l'ouverture de l'administration]1
+#### Section 2  - [1 De l'ouverture de l'administration]1
 
 > 1: Inséré par L 2013-03-17/14, art. 55, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
@@ -5059,7 +5059,7 @@ Testing justel2md
 > 1: L 2013-03-17/14, art. 56, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
 
-  Section 3. - [1 De l'organisation de l'administration]1
+#### Section 3  - [1 De l'organisation de l'administration]1
 
 > 1: Inséré par L 2013-03-17/14, art. 57, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
@@ -5145,7 +5145,7 @@ Testing justel2md
 > 2: L 2018-12-21/09, art. 16, 086; En vigueur : 01-03-2019
 
 
-  Section 4. - [1 Du fonctionnement de l'administration]1
+#### Section 4  - [1 Du fonctionnement de l'administration]1
 
 > 1: Inséré par L 2013-03-17/14, art. 66, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
@@ -5685,7 +5685,7 @@ Testing justel2md
 > 1: Inséré par L 2018-12-21/09, art. 39, 086; En vigueur : 01-03-2019
 
 
-  Section 5. - [1 De la fin de l'administration]1
+#### Section 5  - [1 De la fin de l'administration]1
 
 > 1: Inséré par L 2013-03-17/14, art. 117, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
@@ -5731,7 +5731,7 @@ Testing justel2md
   **Art. 512.**
   <Abrogé par L 2013-03-17/14, art. 119, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)> 
 
-  CHAPITRE III. 
+### Chapitre III  
   <Abrogé par L 2013-03-17/14, art. 120, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)> 
 
   **Art. 513.**

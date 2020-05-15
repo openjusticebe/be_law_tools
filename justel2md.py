@@ -16,18 +16,19 @@ RE_FORMATS = [
     (r"^.*----------\s*$", ""),
     (r"^\u00A0{2}\((?P<refnum>\d{1,3})\)<(?P<ref>.*)>\s*$", "> \g<refnum>: \g<ref>\n\n"),
     (r"^(?P<titre>TITRE .*)$", "# \g<titre>"),
+    (r"^\u00A0{2}(?P<titre>TITRE .*)$", "# \g<titre>"),
     (r"^\u00A0{2}LIVRE (?P<num>[\dIVL]{1,5})\.( - )?(?P<txt>.*)$", "# Livre \g<num> \g<txt>"),
     (r"^\u00A0{2}TITRE (?P<num>[\dIVL]{1,5})\.( - )?(?P<txt>.*)$", "## Titre \g<num> \g<txt>"),
-    (r"^\u00A0{2}CHAPITRE (?P<num>[\dIVL]{1,5})(er)\.( - )?(?P<txt>.*)$", "### Chapitre \g<num> \g<txt>"),
-    (r"^\u00A0{2}SECTION (?P<num>[\dIVL]{1,3})(re)\.(?P<txt>.*)$", "#### Section \g<num> \g<txt>"),
-    (r"^\u00A0{2}Section (?P<num>[\dIVL]{1,3})(re)\.(?P<txt>.*)$", "#### Section \g<num> \g<txt>"),
+    (r"^\u00A0{2}CHAPITRE (?P<num>[\dIVL]{1,5})(er)?\.( - )?(?P<txt>.*)$", "### Chapitre \g<num> \g<txt>"),
+    (r"^\u00A0{2}SECTION (?P<num>[\dIVL]{1,3})(re)?\.(?P<txt>.*)$", "#### Section \g<num> \g<txt>"),
+    (r"^\u00A0{2}Section (?P<num>[\dIVL]{1,3})(re)?\.(?P<txt>.*)$", "#### Section \g<num> \g<txt>"),
     (r"^\u00A0{2}\s*-\s*", " * "),
     (r"^\u00A0{2}\s*(?P<num>\d+)°?\s*", " \g<num>. "),
     (r"^\u00A0{2}\s*§\s*(?P<num>\d+)\.?", "\n\n§\g<num>. "),
 ]
 
 RE_CLEANUP = [
-    (r"^\u00A0{2}\s*", ""),
+    (r"^\u00A0{2}\s*", "\n"),
 ]
 
 

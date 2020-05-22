@@ -32,7 +32,7 @@ def meta_get(raw_text, html_text):
         for line in raw_text.splitlines():
             matches = re.match(mask, line)
             if matches:
-                data[key] = matches['value']
+                data[key] = matches['value'].replace(':', '')
                 break
     data['updated'] = [
         x.group() for x in re.finditer(r'([0-9AB]{10})', raw_text)

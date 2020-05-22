@@ -1,7 +1,7 @@
 ---
 dateString: 21 MARS 1804
 title: CODE CIVIL
-subTitle: TITRE PRELIMINAIRE et LIVRE I : Des personnes (art. 1-515).
+subTitle: TITRE PRELIMINAIRE et LIVRE I  Des personnes (art. 1-515).
 pubDate: 03-09-1807
 startDate: 13-09-1807
 number: 1804032150

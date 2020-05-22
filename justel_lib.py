@@ -19,8 +19,11 @@ def format_text(text, clean=False):
 def meta2md(data):
     print('---')
     for k, v in data.items():
-        print(f'{k}: {v}')
-    print('---')
+        if type(v) is list:
+            print(f'{k}: {", ".join(v)}')
+        else:
+            print(f'{k}: {v}')
+    print('\n---\n')
 
 
 def meta_get(raw_text, html_text):

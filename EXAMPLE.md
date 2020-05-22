@@ -1,13 +1,15 @@
 ---
-date_str: 21 MARS 1804
+dateString: 21 MARS 1804
 title: CODE CIVIL
-sub_title: TITRE PRELIMINAIRE et LIVRE I : Des personnes (art. 1-515).
-pub_date: 03-09-1807
-start_date: 13-09-1807
+subTitle: TITRE PRELIMINAIRE et LIVRE I : Des personnes (art. 1-515).
+pubDate: 03-09-1807
+startDate: 13-09-1807
 number: 1804032150
-updated: []
+updated: 
 url: http://www.ejustice.just.fgov.be/eli/loi/1804/03/21/1804032150/justel
+
 ---
+
 None
 # TITRE PRELIMINAIRE. - DE LA PUBLICATION. DES EFFETS ET DE L'APPLICATION DES LOIS EN GENERAL.
 

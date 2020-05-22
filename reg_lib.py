@@ -29,4 +29,5 @@ RE_KEY_MASKS = [
     ('pubDate', ".*Publication\s*:\s*(?P<value>[\d\-]+)"),
     ('startDate', ".*vigueur\s*:\s*(?P<value>[\d\-]+)"),
     ('number', ".*numéro\s*:\s*(?P<value>[0-9AB]{10})"),
+    ('source', ".*Source\s*:\s*(?P<value>.*)$"),
 ]

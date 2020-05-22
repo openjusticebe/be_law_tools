@@ -26,16 +26,38 @@ def meta2md(data):
     print('\n---\n')
 
 
-def meta_get(raw_text, html_text):
-    data = {}
+def meta_get(raw_text, html_text, data={}):
     for key, mask in RE_KEY_MASKS:
         for line in raw_text.splitlines():
             matches = re.match(mask, line)
             if matches:
-                data[key] = matches['value'].replace(':', '')
+                data[key] = matches['value'].replace(':', '').strip()
                 break
     data['updated'] = [
         x.group() for x in re.finditer(r'([0-9AB]{10})', raw_text)
         if x.group() != data.setdefault('number', None)
     ]
     return data
+
+
+def soup2meta(soup, meta_in={}):
+    meta_table = soup.find('body').findChildren('table')[1]
+    content = meta_table.findAll('th')[1]
+    for br in content.find_all('br'):
+        br.replace_with("\n")
+    raw_text = content.getText()
+    return meta_get(raw_text, content, meta_in)
+
+
+def soup2md(soup, clean=False, meta_in={}):
+    # Get meta
+    text_meta = meta2md(soup2meta(soup), meta_in)
+
+    # Get text
+    table = soup.find('body').findChildren('table')[3]
+    for br in soup.find_all('br'):
+        br.replace_with("\n")
+    raw_text = table.getText()
+    text = format_text(raw_text, clean)
+
+    return f"{text_meta}{text}"

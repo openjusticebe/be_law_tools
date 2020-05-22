@@ -2,20 +2,26 @@
 import click
 import requests
 import time
+from datetime import datetime
 from bs4 import BeautifulSoup as bs
 from justel_lib import (
-    format_text,
-    meta2md,
-    meta_get,
+    soup2md
 )
 
 TEST_URL = "http://www.ejustice.just.fgov.be/eli/loi/1804/03/21/1804032150/justel"
 # http://www.ejustice.just.fgov.be/eli/wet/1804/03/21/1804032150/justel
 
 
-@click.command()
+@click.group()
+@click.option('--debug/--no-debug', default=False)
+def main(debug):
+    # FIXME: set debug
+    pass
+
+
+@main.command()
 @click.option('-c', '--clean', 'clean', is_flag=True)
-def main(clean):
+def test(clean):
     url = TEST_URL
     while True:
         r = requests.get(TEST_URL, allow_redirects=False)
@@ -23,27 +29,39 @@ def main(clean):
             break
         time.sleep(2)
     soup = bs(r.text, 'html5lib')
-
-    # Get meta
-    meta_table = soup.find('body').findChildren('table')[1]
-    content = meta_table.findAll('th')[1]
-    for br in content.find_all('br'):
-        br.replace_with("\n")
-    raw_text = content.getText()
-    meta = meta_get(raw_text, content)
-    meta['url'] = url
-
-    # Get text
-    table = soup.find('body').findChildren('table')[3]
-    for br in soup.find_all('br'):
-        br.replace_with("\n")
-    raw_text = table.getText()
-    text_meta = meta2md(meta)
-    text = format_text(raw_text)
+    md = soup2md(soup, clean, {'url': url})
 
     # Output
-    print(text_meta)
-    print(text)
+    print(md)
+
+
+@main.command()
+@click.option('--start-date', '-s', 'sdate', default='1800-01-01')
+@click.option('--end-date', '-e', 'edate', default=None)
+@click.option(
+    '--interval',
+    '-i',
+    type=click.Choice(['year', 'month', 'day']),
+    default='year')
+@click.option(
+    '--doc-type',
+    '-t',
+    'dtype',
+    type=click.Choice(
+        ['constitution', 'loi', 'decret', 'ordonnance', 'arrete', 'grondwet', 'wet', 'decreet', 'ordonnantie', 'besluit'],
+        case_sensitive=False),
+    default='loi')
+@click.option(
+    '--output-dir',
+    '-o',
+    default='./out'
+)
+def scan(sdate, edate, interval, dtype, output_dir):
+    start_dt = datetime.strptime(sdate, '%Y-%m-%d')
+    end_dt = datetime.strptime(edate, '%Y-%m-%d') if end_date else datetime.now()
+    # XXX: Make generator to obtain next URL to test, add unittests
+
+
 
 
 if __name__ == "__main__":

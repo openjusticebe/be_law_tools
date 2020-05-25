@@ -29,7 +29,6 @@ def content_get(year):
 def links_get(soup):
     links = []
     for link in soup.find_all('a', text=re.compile('\W*Justel\W*')):
-    #for link in soup.find_all('a'):
         links.append(link.get('href'))
     return links
 

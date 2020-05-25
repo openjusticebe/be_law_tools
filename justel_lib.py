@@ -1,7 +1,10 @@
 import re
+import time
 import logging
+import requests
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
+from bs4 import BeautifulSoup as bs
 from reg_lib import (
     RE_CLEANUP,
     RE_FORMATS,
@@ -96,3 +99,57 @@ def justel_urls(startDate, endDate=False, interval='month'):
                 url += MASK_DAY.format(day=cur.day)
         yield url
         cur += delta
+
+
+def justel_eli_scan(url):
+    cur = 0
+    links = []
+    while cur < 4:
+        r = requests.get(url, allow_redirects=False)
+        if r.status_code == 200:
+            break
+        time.sleep(2)
+        cur += 1
+
+    if r.status_code != 200:
+        logger.warning("Bad response code: %s", r.status_code)
+        return False, links
+    if 'error select' in r.text:
+        logger.warning('SQL Error on server')
+        return False, links
+    if '<center><FONT SIZE=6>Aide ELI ' in r.text:
+        logger.warning('Page does not exist')
+        return False, links
+    try:
+        soup = bs(r.text, 'html5lib')
+        for link in soup.find_all('a', text=re.compile('\W*Justel\W*')):
+            links.append(link.get('href'))
+    except Exception as exc:
+        logger.exception(exc)
+        return False, links
+
+    return True, links
+
+
+def justel_doc_scan(url):
+    cur = 0
+    while cur < 4:
+        r = requests.get(url, allow_redirects=False)
+        if r.status_code == 200:
+            break
+        time.sleep(2)
+        cur += 1
+
+    if r.status_code != 200:
+        logger.warning("Bad response code: %s", r.status_code)
+        return False, ""
+    if '<center><FONT SIZE=6>Aide ELI ' in r.text:
+        logger.warning('Page does not exist')
+        return False, ""
+    if 'La version int&eacute;grale et consolid&eacute;e de ce texte n\'est pas disponible.' in r.text:
+        logger.warning('Consolidated version not available')
+        return False, ""
+    if 'De geconsolideerde versie van deze tekst is niet beschikbaar.' in r.text:
+        logger.warning('Consolidated version not available')
+        return False, ""
+    return True, r.text

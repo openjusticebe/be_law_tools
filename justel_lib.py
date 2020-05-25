@@ -1,4 +1,5 @@
 import re
+import os
 import time
 import logging
 import requests
@@ -25,14 +26,17 @@ def format_text(text, clean=False):
     return text
 
 
-def meta2md(data):
-    print('---')
+def meta2md(data, dump=False):
+    out = ['---']
     for k, v in data.items():
         if type(v) is list:
-            print(f'{k}: {", ".join(v)}')
+            out.append(f'{k}: {", ".join(v)}')
         else:
-            print(f'{k}: {v}')
-    print('\n---\n')
+            out.append(f'{k}: {v}')
+    out.append('\n---\n')
+    if dump:
+        print("\n".join(out))
+    return "\n".join(out)
 
 
 def meta_get(raw_text, html_text, data={}):
@@ -58,9 +62,10 @@ def soup2meta(soup, meta_in={}):
     return meta_get(raw_text, content, meta_in)
 
 
-def soup2md(soup, clean=False, meta_in={}):
+def soup2md(soup, clean=False, meta_in={}, meta_out=False):
     # Get meta
-    text_meta = meta2md(soup2meta(soup), meta_in)
+    meta = soup2meta(soup, meta_in)
+    text_meta = meta2md(meta)
 
     # Get text
     table = soup.find('body').findChildren('table')[3]
@@ -69,10 +74,13 @@ def soup2md(soup, clean=False, meta_in={}):
     raw_text = table.getText()
     text = format_text(raw_text, clean)
 
-    return f"{text_meta}{text}"
+    if meta_out:
+        return f"{text_meta}{text}", meta
+    else:
+        return f"{text_meta}{text}"
 
 
-def justel_urls(startDate, endDate=False, interval='month'):
+def justel_urls(startDate, endDate=False, interval='month', dtype='loi'):
     sdt = datetime.strptime(startDate, '%Y-%m-%d')
     edt = datetime.strptime(endDate, '%Y-%m-%d') if endDate else datetime.now()
     cur = sdt
@@ -88,11 +96,11 @@ def justel_urls(startDate, endDate=False, interval='month'):
     elif interval != 'month':
         logger.warning("Date interval %s is not in supported list (day, year or month), applying default value (month)", interval)
 
-    MASK_BASE = "http://www.ejustice.just.fgov.be/eli/loi/{year}"
+    MASK_BASE = "http://www.ejustice.just.fgov.be/eli/{dtype}/{year}"
     MASK_MONTH = "/{month:02d}"
     MASK_DAY = "/{day:02d}"
     while cur <= edt:
-        url = MASK_BASE.format(year=cur.year)
+        url = MASK_BASE.format(year=cur.year, dtype=dtype)
         if not isY:
             url += MASK_MONTH.format(month=cur.month)
             if isD:
@@ -146,6 +154,12 @@ def justel_doc_scan(url):
     if '<center><FONT SIZE=6>Aide ELI ' in r.text:
         logger.warning('Page does not exist')
         return False, ""
+    if '(NOTE : pas de texte disponible)' in r.text:
+        logger.warning('Text not available')
+        return False, ""
+    if '(NOTA : geen tekst beschikbaar)' in r.text:
+        logger.warning('Text not available')
+        return False, ""
     if 'La version int&eacute;grale et consolid&eacute;e de ce texte n\'est pas disponible.' in r.text:
         logger.warning('Consolidated version not available')
         return False, ""
@@ -153,3 +167,12 @@ def justel_doc_scan(url):
         logger.warning('Consolidated version not available')
         return False, ""
     return True, r.text
+
+
+def store_md(output_dir, md, meta):
+    basepath = os.path.abspath(output_dir)
+    filepath = os.path.join(basepath, meta['number'][:4], f"{meta['number']}.md")
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    with open(filepath, "w") as f:
+        f.write(md)
+    return filepath

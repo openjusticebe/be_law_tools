@@ -25,6 +25,7 @@ Feature: scan_justel
         | http://www.ejustice.just.fgov.be/eli/loi/1950/02/11/1950021101/justel | False  | 0           |
         | http://www.ejustice.just.fgov.be/eli/loi/1900/05/16/2009000663/justel | False  | 0           |
         | http://www.ejustice.just.fgov.be/eli/loi/1980/02/29/1980022902/justel | False  | 0           |
+        | http://www.ejustice.just.fgov.be/eli/loi/1804/03/21/2010000632/justel | False  | 0           |
         | http://www.ejustice.just.fgov.be/eli/loi/1900/05/16/1900051650/justel | True   | 23850       |
       When I feed them to the document scanner
         Then I obtain the expected results

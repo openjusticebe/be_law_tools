@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import logging
 import click
 import requests
 import time
@@ -10,13 +11,18 @@ from justel_lib import (
 
 TEST_URL = "http://www.ejustice.just.fgov.be/eli/loi/1804/03/21/1804032150/justel"
 # http://www.ejustice.just.fgov.be/eli/wet/1804/03/21/1804032150/justel
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.getLevelName('INFO'))
+logger.addHandler(logging.StreamHandler())
 
 
 @click.group()
 @click.option('--debug/--no-debug', default=False)
 def main(debug):
     # FIXME: set debug
-    pass
+    if debug:
+        logger.setLevel(logging.getLevelName('DEBUG'))
+        logger.debug('Debug enabled')
 
 
 @main.command()

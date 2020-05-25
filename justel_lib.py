@@ -1,9 +1,15 @@
 import re
+import logging
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
 from reg_lib import (
     RE_CLEANUP,
     RE_FORMATS,
     RE_KEY_MASKS,
 )
+
+logger = logging.getLogger(__name__)
+
 
 def format_text(text, clean=False):
     for mod in RE_FORMATS:
@@ -61,3 +67,32 @@ def soup2md(soup, clean=False, meta_in={}):
     text = format_text(raw_text, clean)
 
     return f"{text_meta}{text}"
+
+
+def justel_urls(startDate, endDate=False, interval='month'):
+    sdt = datetime.strptime(startDate, '%Y-%m-%d')
+    edt = datetime.strptime(endDate, '%Y-%m-%d') if endDate else datetime.now()
+    cur = sdt
+
+    delta = relativedelta(months=1)
+    isY, isD = False, False
+    if interval == 'day':
+        delta = relativedelta(days=1)
+        isD = True
+    elif interval == 'year':
+        delta = relativedelta(years=1)
+        isY = True
+    elif interval != 'month':
+        logger.warning("Date interval %s is not in supported list (day, year or month), applying default value (month)", interval)
+
+    MASK_BASE = "http://www.ejustice.just.fgov.be/eli/loi/{year}"
+    MASK_MONTH = "/{month:02d}"
+    MASK_DAY = "/{day:02d}"
+    while cur <= edt:
+        url = MASK_BASE.format(year=cur.year)
+        if not isY:
+            url += MASK_MONTH.format(month=cur.month)
+            if isD:
+                url += MASK_DAY.format(day=cur.day)
+        yield url
+        cur += delta

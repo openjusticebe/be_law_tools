@@ -13,6 +13,7 @@ requests = "*"
 beautifulsoup4 = "*"
 click = "*"
 html5lib = "*"
+python-dateutil = "*"
 
 [requires]
 python_version = "3.8"

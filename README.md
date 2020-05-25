@@ -66,6 +66,6 @@ To extract, provide a start and end date and an output dir:
 > pipenv run ./justel2md.py --debug scan -s 2020-01-01
 
 # Specific extraction
-> pipenv run ./justel2md.py --debug scan -s 1804-01-01 -e 1850-01-01 -o /home/pieterjan/docs/be_laws_fr
+> pipenv run ./justel2md.py --debug scan -s 1804-01-01 -e 1850-01-01 -o /some_output_dir
 ```
 

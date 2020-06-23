@@ -54,7 +54,7 @@ def meta_get(raw_text, html_text, data={}):
 
 
 def soup2meta(soup, meta_in={}):
-    meta_table = soup.find('body').findChildren('table')[1]
+    meta_table = soup.find('body').findChildren('table', recursive=False)[1]
     content = meta_table.findAll('th')[1]
     for br in content.find_all('br'):
         br.replace_with("\n")
@@ -68,7 +68,7 @@ def soup2md(soup, clean=False, meta_in={}, meta_out=False):
     text_meta = meta2md(meta)
 
     # Get text
-    table = soup.find('body').findChildren('table')[3]
+    table = soup.find('body').findChildren('table', recursive=False)[3]
     for br in soup.find_all('br'):
         br.replace_with("\n")
     raw_text = table.getText()

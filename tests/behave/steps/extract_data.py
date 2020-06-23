@@ -4,7 +4,8 @@ import time
 from bs4 import BeautifulSoup as bs
 from behave import when, given, then
 from justel_lib import (
-    soup2meta
+    soup2meta,
+    soup2md
 )
 
 
@@ -44,4 +45,18 @@ def step_impl(context, key, value):
 def step_impl(context, num):
     assert len(context.meta['updated']) == num
 
+
+
+@when(u'I extract main text')
+def step_impl(context):
+    context.main_text = soup2md(context.soup)
+
+
+@then(u'It contains the word {word}')
+def step_impl(context, word):
+    assert word in context.main_text
+
+@then(u'It contains at least {number_of_char:d} characters')
+def step_impl(context, number_of_char):
+    assert len(context.main_text) > number_of_char
 

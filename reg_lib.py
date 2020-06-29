@@ -1,7 +1,7 @@
 # Formating text
 RE_FORMATS = [
     (r"\s*Texte\s*Table des matières\s*Début\s*", ""),
-    (r"Art(icle)?\.  (?P<artnum>[\d/a-z\-]{1,20})\.", "**Art. \g<artnum>.**"),
+    (r"Art(icle)?\.*\s*(?P<artnum>[\d/a-z\-:\.]{1,20})\.", "**Art. \g<artnum>.**"),
     (r"^.*----------\s*$", ""),
     (r"^\u00A0{2}\((?P<refnum>\d{1,3})\)<(?P<ref>.*)>\s*$", "> \g<refnum>: \g<ref>\n\n"),
     (r"^(?P<titre>TITRE .*)$", "# \g<titre>"),

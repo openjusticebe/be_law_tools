@@ -5,7 +5,7 @@ RE_FORMATS = [
     (r"^.*----------\s*$", ""),
     (r"^\u00A0{2}\((?P<refnum>\d{1,3})\)<(?P<ref>.*)>\s*$", "> \g<refnum>: \g<ref>\n\n"),
     (r"^(?P<titre>TITRE .*)$", "# \g<titre>"),
-    (r"^\u00A0{2}(?P<titre>TITRE .*)$", "# \g<titre>"),
+    (r"^\u00A0{2}(?P<titre>TITRE [^\dIVL]*)$", "# \g<titre>"),
     (r"^\u00A0{2}LIVRE (?P<num>[\dIVL]{1,5})\.( - )?(?P<txt>.*)$", "# Livre \g<num> \g<txt>"),
     (r"^\u00A0{2}TITRE (?P<num>[\dIVL]{1,5})\.( - )?(?P<txt>.*)$", "## Titre \g<num> \g<txt>"),
     (r"^\u00A0{2}CHAPITRE (?P<num>[\dIVL]{1,5})(er)?\.( - )?(?P<txt>.*)$", "### Chapitre \g<num> \g<txt>"),

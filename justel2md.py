@@ -84,6 +84,7 @@ def scan(sdate, edate, interval, dtype, output_dir):
         'lang': NL_ISO if dtype in NL_DOCTYPES else FR_ISO,
         'dtype': dtype
     }
+    logger.info("Starting import of document type '%s'", dtype)
 
     for jurl in justel_urls(sdate, edate, interval, dtype):
         page_check, links = justel_eli_scan(jurl)

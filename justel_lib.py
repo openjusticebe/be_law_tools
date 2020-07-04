@@ -173,7 +173,7 @@ def justel_doc_scan(url):
 def store_md(output_dir, md, meta):
     basepath = os.path.abspath(output_dir)
     slug_type = slugify(meta['dtype'], max_length=12, word_boundary=True)
-    if meta['subTitle']:
+    if 'subTitle' in meta and meta['subTitle']:
         slug_title = slugify(meta['title'] + '-' + meta['subTitle'], max_length=60, word_boundary=True)
     else:
         slug_title = slugify(meta['title'], max_length=25, word_boundary=True)

@@ -18,6 +18,13 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.getLevelName('INFO'))
 logger.addHandler(logging.StreamHandler())
 
+# Doctypes that can be obtained, by language (order is respected)
+NL_DOCTYPES = ['grondwet', 'wet', 'decreet', 'ordonnantie', 'besluit']
+FR_DOCTYPES = ['constitution', 'loi', 'decret', 'ordonnance', 'arrete']
+
+FR_ISO = 'fra'
+NL_ISO = 'nld'
+
 
 @click.group()
 @click.option('--debug/--no-debug', default=False)
@@ -57,7 +64,7 @@ def test(clean):
     '-t',
     'dtype',
     type=click.Choice(
-        ['constitution', 'loi', 'decret', 'ordonnance', 'arrete', 'grondwet', 'wet', 'decreet', 'ordonnantie', 'besluit'],
+        [*NL_DOCTYPES, *FR_DOCTYPES],
         case_sensitive=False),
     default='loi')
 @click.option(
@@ -72,6 +79,12 @@ def scan(sdate, edate, interval, dtype, output_dir):
     """
     cnt_page = 0
     cnt_doc = 0
+
+    base_data = {
+        'lang': NL_ISO if dtype in NL_DOCTYPES else FR_ISO,
+        'dtype': dtype
+    }
+
     for jurl in justel_urls(sdate, edate, interval, dtype):
         page_check, links = justel_eli_scan(jurl)
         cnt_page += 1
@@ -87,7 +100,8 @@ def scan(sdate, edate, interval, dtype, output_dir):
                 logger.debug("Document %s invalid, continueing", link)
                 continue
             soup = bs(text, 'html5lib')
-            md, meta = soup2md(soup, True, {'url': link}, True)
+            base_data['url'] = link
+            md, meta = soup2md(soup, True, base_data, True)
 
             filepath = store_md(output_dir, md, meta)
             logger.debug("Wrote file %s", filepath)
@@ -95,8 +109,6 @@ def scan(sdate, edate, interval, dtype, output_dir):
         click.secho(f"Scanned {cnt_page} pages, {cnt_doc} documents", bg='green', fg='black', bold=True)
 
     # XXX: Make generator to obtain next URL to test, add unittests
-
-
 
 
 if __name__ == "__main__":

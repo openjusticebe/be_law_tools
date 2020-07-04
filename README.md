@@ -46,7 +46,7 @@ Options:
 ```bash
 > cd [project_dir]
 > pipenv install --dev
-> pipenv run ./justel2md.py -c > EXAMPLE.md
+> pipenv run ./justel2md.py test -c > EXAMPLE.md
 ```
 
 Toolset development is **behaviour driven**. As such, tests and scenarios can be found in `tests/behave`.

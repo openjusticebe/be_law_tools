@@ -3,6 +3,7 @@ import os
 import time
 import logging
 import requests
+from slugify import slugify
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from bs4 import BeautifulSoup as bs
@@ -53,18 +54,18 @@ def meta_get(raw_text, html_text, data={}):
     return data
 
 
-def soup2meta(soup, meta_in={}):
+def soup2meta(soup, meta_input={}):
     meta_table = soup.find('body').findChildren('table', recursive=False)[1]
     content = meta_table.findAll('th')[1]
     for br in content.find_all('br'):
         br.replace_with("\n")
     raw_text = content.getText()
-    return meta_get(raw_text, content, meta_in)
+    return meta_get(raw_text, content, meta_input)
 
 
-def soup2md(soup, clean=False, meta_in={}, meta_out=False):
+def soup2md(soup, clean=False, meta_input={}, do_return_meta=False):
     # Get meta
-    meta = soup2meta(soup, meta_in)
+    meta = soup2meta(soup, meta_input)
     text_meta = meta2md(meta)
 
     # Get text
@@ -74,7 +75,7 @@ def soup2md(soup, clean=False, meta_in={}, meta_out=False):
     raw_text = table.getText()
     text = format_text(raw_text, clean)
 
-    if meta_out:
+    if do_return_meta:
         return f"{text_meta}{text}", meta
     else:
         return f"{text_meta}{text}"
@@ -171,7 +172,13 @@ def justel_doc_scan(url):
 
 def store_md(output_dir, md, meta):
     basepath = os.path.abspath(output_dir)
-    filepath = os.path.join(basepath, meta['number'][:4], f"{meta['number']}.md")
+    slug_type = slugify(meta['dtype'], max_length=12, word_boundary=True)
+    if meta['subTitle']:
+        slug_title = slugify(meta['title'] + '-' + meta['subTitle'], max_length=60, word_boundary=True)
+    else:
+        slug_title = slugify(meta['title'], max_length=25, word_boundary=True)
+    filename = f"{slug_type}-{meta['pubDate']}-{meta['lang']}-{slug_title}-{meta['number']}.md"
+    filepath = os.path.join(basepath, meta['number'][:4], filename)
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, "w") as f:
         f.write(md)

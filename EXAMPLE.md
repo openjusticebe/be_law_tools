@@ -9,11 +9,10 @@ number: 1804032150
 updated: 
 
 ---
+# TITRE PRELIMINAIRE. - DE LA PUBLICATION. DES EFFETS ET DE L'APPLICATION DES LOIS EN GENERAL.
 
-None# TITRE PRELIMINAIRE. - DE LA PUBLICATION. DES EFFETS ET DE L'APPLICATION DES LOIS EN GENERAL.
 
-
-Article   1.[1( article 2 renuméroté)]1 La loi ne dispose que pour l'avenir : elle n'a point d'effet rétroactif.
+**Art. 1.**[1( article 2 renuméroté)]1 La loi ne dispose que pour l'avenir : elle n'a point d'effet rétroactif.
 
 > 1: L 2018-06-18/03, art. 2, 082; En vigueur : 31-03-2019
 
@@ -26,7 +25,7 @@ Article   1.[1( article 2 renuméroté)]1 La loi ne dispose que pour l'avenir : 
 
 # Livre I DES PERSONNES.
 
-# TITRE I. - DE LA JOUISSANCE ET DE LA PRIVATION DES DROITS CIVILS.
+## Titre I DE LA JOUISSANCE ET DE LA PRIVATION DES DROITS CIVILS.
 
 ### Chapitre I  [1 ...]1
 
@@ -68,7 +67,7 @@ L'étranger autorisé à s'établir dans le Royaume et inscrit au registre de la
 > 1: L 2018-06-18/03, art. 3, 082; En vigueur : 31-03-2019
 
 
-# TITRE II. [1 - DE L'ETAT CIVIL.]1
+## Titre II  [1 - DE L'ETAT CIVIL.]1
 
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -78,7 +77,7 @@ L'étranger autorisé à s'établir dans le Royaume et inscrit au registre de la
 > 1: L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-#### Section 1  [1 Objectifs de l'état civil]1
+#### Section 1re  [1 Objectifs de l'état civil]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -502,7 +501,7 @@ Le Collège des procureurs généraux peut arrêter des directives précisant le
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-#### Section 1  [1 Disposition générale]1
+#### Section 1re  [1 Disposition générale]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -985,7 +984,7 @@ Une copie de la décision judiciaire étrangère ou de la décision administrati
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
 
-#### Section 1  [1 Dispositions générales]1
+#### Section 1re  [1 Dispositions générales]1
 
 > 1: Inséré par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019
 
@@ -1235,7 +1234,7 @@ L'article 458 du Code pénal leur est applicable.]1
 
 <Abrogé par L 2018-06-18/03, art. 4, 082; En vigueur : 31-03-2019> 
 
-# TITRE III. - DU DOMICILE.
+## Titre III DU DOMICILE.
 
 
 **Art. 102.** Le domicile de tout Belge, quant à l'exercice de ses droits civils, est au lieu où il a son principal établissement.
@@ -1269,11 +1268,11 @@ La personne sous tutelle a son domicile chez son tuteur.
 
 **Art. 111.** Lorsqu'un acte contiendra, de la part des parties ou de l'une d'elles, élection de domicile pour l'exécution de ce même acte dans un autre lieu que celui du domicile réel, les significations, demandes et poursuites relatives à cet acte, pourront être faites au domicile convenu, et devant le juge de ce domicile.
 
-# TITRE IV. - DES ABSENTS.
+## Titre IV DES ABSENTS.
 
 ### Chapitre I [DE L'ABSENCE]. <L 2007-05-09/44, art. 2, 037;  En vigueur :  01-07-2007>
 
-#### Section I  - De la présomption d'absence <Insérée par L 2007-05-09/44, art. 3;  En vigueur :  01-07-2007>
+#### Section Ire  - De la présomption d'absence <Insérée par L 2007-05-09/44, art. 3;  En vigueur :  01-07-2007>
 
 
 **Art. 112.**<L 2007-05-09/44, art. 4, 037;  En vigueur :  01-07-2007> § 1er. Lorsqu'une personne a cessé de paraître au lieu de son domicile ou de sa résidence depuis plus de trois mois sans que l'on ait eu de ses nouvelles pendant au moins trois mois et qu'il en découle une incertitude quant à sa vie ou à sa mort, le [1 juge de paix]1 peut, à la demande de toute personne intéressée ou du procureur du Roi, constater la présomption d'absence.
@@ -1559,7 +1558,8 @@ Si la personne dont le décès a été judiciairement déclaré reparaît, il es
 
 **Art. 135.** <L 2007-05-09/44, art. 33, 037;  En vigueur :  01-07-2007> Les greffiers en chef des cours et tribunaux informent immédiatement le ministre des Affaires étrangères de toute procédure judiciaire poursuivie en vertu du présent chapitre.
 
-# TITRE IV/1. [1 - De la modification de l'enregistrement du sexe.]1
+
+TITRE IV/1. [1 - De la modification de l'enregistrement du sexe.]1
 
 > 1: Inséré par L 2018-06-18/03, art. 11, 082; En vigueur : 31-03-2019
 
@@ -1666,7 +1666,7 @@ Dans tous les autres cas, l'application du livre Ier, titre VII, est fondée sur
 
 **Art. 142.** [Abrogé] <L 2007-05-09/44, art. 34, 037;  En vigueur :  01-07-2007>
 
-# TITRE V. - DU MARIAGE.
+## Titre V DU MARIAGE.
 
 ### Chapitre I DES QUALITES ET CONDITIONS REQUISES POUR POUVOIR CONTRACTER MARIAGE.
 
@@ -1808,7 +1808,7 @@ La procédure est introduite sur requête unilatérale par un des futurs conjoin
 > 1: L 2018-06-18/03, art. 15, 082; En vigueur : 31-03-2019
 
 
-#### Section 1  [1 De la déclaration de mariage]1
+#### Section 1re  [1 De la déclaration de mariage]1
 
 > 1: Inséré par L 2018-06-18/03, art. 16, 082; En vigueur : 31-03-2019
 
@@ -2502,7 +2502,7 @@ Si l'époux décède avant que la forclusion ne soit atteinte, ses héritiers di
 
 **Art. 228.** [Abrogé] <L 31-03-1987, art. 35>
 
-# TITRE VI. - DU DIVORCE.
+## Titre VI DU DIVORCE.
 
 ### Chapitre I DES CAUSES DU DIVORCE.
 
@@ -2894,7 +2894,7 @@ Cette décision est opposable à tout tiers débiteur, actuel ou futur, sur la n
 
 **Art. 311quater.** [Abrogé] <L 20-07-1962, art. 25>.
 
-# TITRE VII. - [...] DE LA FILIATION.
+## Titre VII [...] DE LA FILIATION.
 
 ### Chapitre I DE L'ETABLISSEMENT DE LA FILIATION MATERNELLE.
 
@@ -3483,6 +3483,8 @@ En cas de refus de l'officier de l'état civil d'acter la reconnaissance, la per
 
 Dans le cas visé à l'alinéa 5, l'exploit de citation ou la requête contient, à peine de nullité, la décision de refus de l'officier de l'état civil.]1
 
+(NOTE : par son arrêt n° 58/2020 du 07-05-2020 (M.B. 11-06-2020, p. 42477), la Cour constitutionnelle a annulé les alineas 5 et 6 du présent article)
+
 > 1: Inséré par L 2017-09-19/06, art. 10, 079; En vigueur : 01-04-2018
 
 
@@ -3849,11 +3851,11 @@ La pension peut être modifiée conformément à l'article 209.
 
 **Art. 342.** [Abrogé] <L 31-03-1987, art. 38>.
 
-# TITRE VIII. - De l'adoption <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
+## Titre VIII De l'adoption <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
-### Chapitre I Droit interne. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
+### Chapitre Ier Droit interne. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
-#### Section 1  - Disposition générale. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
+#### Section 1re  - Disposition générale. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
 
 **Art. 343.**<L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005> § 1er. On entend par :
@@ -3924,7 +3926,7 @@ C. Aptitude. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 Est apte à adopter, la personne qui possède les qualités socio-psychologiques nécessaires pour ce faire.
 
 
-Art. 346-1/1. [1 La personne ou les personnes résidant habituellement en Belgique et désireuses d'adopter un enfant dont la résidence habituelle est également située en Belgique doivent, avant d'effectuer quelque démarche que ce soit en vue d'une adoption, obtenir un jugement les déclarant qualifiées et aptes à assumer une adoption.
+**Art. 346-1/1.** [1 La personne ou les personnes résidant habituellement en Belgique et désireuses d'adopter un enfant dont la résidence habituelle est également située en Belgique doivent, avant d'effectuer quelque démarche que ce soit en vue d'une adoption, obtenir un jugement les déclarant qualifiées et aptes à assumer une adoption.
 
 Par dérogation à l'alinéa 1er, l'adoptant ne doit pas obtenir un jugement le déclarant qualifié et apte à assumer une adoption avant d'entamer la procédure d'établissement de l'adoption, l'adoptant, lorsqu'il désire adopter un enfant :
  1. apparenté, jusqu'au troisième degré, à lui-même, à son conjoint, à son cohabitant ou à son ancien partenaire, même décédé; ou
@@ -3937,7 +3939,7 @@ Dans ces cas, l'aptitude de l'adoptant sera appréciée par le tribunal de la fa
 
 
 
-Art. 346-1/2. [1 L'aptitude est appréciée par le tribunal de la famille sur la base d'une enquête sociale, qu'il ordonne.
+**Art. 346-1/2.** [1 L'aptitude est appréciée par le tribunal de la famille sur la base d'une enquête sociale, qu'il ordonne.
 
 Lorsque la procédure d'établissement de l'adoption concerne un enfant visé à l'article 346-1/1, alinéa 2, l'enquête sociale qui est ordonnée porte à la fois sur l'aptitude du candidat adoptant et sur l'intérêt de l'enfant visé par la procédure à être adopté.
 
@@ -3957,7 +3959,7 @@ La préparation susvisée n'est pas obligatoire pour l'adoptant ou les adoptants
 
 
 
-Art. 346-2/1. [1 L'autorité centrale fédérale visée à l'article 360-1, 2°, adresse, sans délai, à l'autorité centrale communautaire compétente visée à l'article 360-1, 3°, les décisions qui lui sont transmises en copie par le greffier du tribunal de la famille ou de la cour d'appel, relatives à l'aptitude, l'inaptitude ou la prolongation de l'aptitude de l'adoptant ou des adoptants, ainsi que l'avis écrit du ministère public visé à l'article 1231-1/5 du Code judiciaire.]1
+**Art. 346-2/1.** [1 L'autorité centrale fédérale visée à l'article 360-1, 2°, adresse, sans délai, à l'autorité centrale communautaire compétente visée à l'article 360-1, 3°, les décisions qui lui sont transmises en copie par le greffier du tribunal de la famille ou de la cour d'appel, relatives à l'aptitude, l'inaptitude ou la prolongation de l'aptitude de l'adoptant ou des adoptants, ainsi que l'avis écrit du ministère public visé à l'article 1231-1/5 du Code judiciaire.]1
 
 > 1: Inséré par L 2017-07-06/24, art. 5, 075; En vigueur : 01-01-2020
 
@@ -4411,13 +4413,13 @@ Lorsque la nouvelle adoption plénière est prononcée en application de l'artic
 
 
 
-**Art. 356.**4. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005> L'adoption plénière est irrévocable.
+**Art. 356.4.** <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005> L'adoption plénière est irrévocable.
 
 La révision est possible conformément à l'article 351.
 
 ### Chapitre II Droit international. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
-#### Section 1  - Dispositions particulières de droit international privé. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
+#### Section 1re  - Dispositions particulières de droit international privé. <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005>
 
 
 **Art. 357.** <L 2003-04-24/32, art. 2, 017;  En vigueur :  01-09-2005> Quel que soit le droit applicable à l'établissement de l'adoption, les conditions visées à l'article 344-1 doivent être remplies et l'adoptant ou les adoptants doivent être qualifiés et aptes à adopter.
@@ -4505,7 +4507,7 @@ Cette obligation s'impose aux adoptants, même s'ils sont apparentés à l'enfan
 
 
 
-Art. 361-2/1. [1 Le rapport visé à l'article 15 de la Convention destiné à mettre à la disposition de l'autorité compétente de l'Etat d'origine suffisamment de renseignements sur leur personne pour lui permettre de déterminer pour chaque enfant en besoin d'adoption, la ou les personnes qui lui offriront l'environnement le plus adéquat et les meilleures chances de bonne intégration, contient des renseignements sur leur identité, leur capacité légale, leur situation personnelle, familiale et médicale, leur milieu social, les motifs qui les animent et leur aptitude à assumer une adoption, ainsi que sur les enfants qu'ils seraient aptes à prendre en charge.
+**Art. 361-2/1.** [1 Le rapport visé à l'article 15 de la Convention destiné à mettre à la disposition de l'autorité compétente de l'Etat d'origine suffisamment de renseignements sur leur personne pour lui permettre de déterminer pour chaque enfant en besoin d'adoption, la ou les personnes qui lui offriront l'environnement le plus adéquat et les meilleures chances de bonne intégration, contient des renseignements sur leur identité, leur capacité légale, leur situation personnelle, familiale et médicale, leur milieu social, les motifs qui les animent et leur aptitude à assumer une adoption, ainsi que sur les enfants qu'ils seraient aptes à prendre en charge.
 
 Lorsqu'une décision prolongeant le délai d'aptitude de l'adoptant ou des adoptants modifie les conditions d'aptitude, un second rapport qui ne porte que sur les nouvelles conditions de cette décision lui est annexé.
 
@@ -4961,12 +4963,13 @@ Toute autorité belge qui est contactée par une autorité étrangère à propos
 
 **Art. 370.** [Abrogé] <L 2003-04-24/32, art. 3, 017;  En vigueur :  01-09-2005>
 
-# TITRE VIII/1. [1 - Des noms et prénoms.]1
+
+TITRE VIII/1. [1 - Des noms et prénoms.]1
 
 > 1: Inséré par L 2018-06-18/03, art. 56, 082; En vigueur : 31-03-2019
 
 
-### Chapitre 1  [1 - Fixité du nom.]1
+### Chapitre 1er  [1 - Fixité du nom.]1
 
 > 1: Inséré par L 2018-06-18/03, art. 57, 082; En vigueur : 31-03-2019
 
@@ -5117,7 +5120,8 @@ Le changement de prénoms produit ses effets à la date de l'établissement de l
 > 1: Inséré par L 2018-06-18/03, art. 68, 082; En vigueur : 31-03-2019
 
 
-# TITRE VIIIbis. - DE L'ABANDON D'UN ENFANT MINEUR. [abrogé] <L 1999-05-07/58, art. 2, 007;  En vigueur :  09-07-1999>
+
+TITRE VIIIbis. - DE L'ABANDON D'UN ENFANT MINEUR. [abrogé] <L 1999-05-07/58, art. 2, 007;  En vigueur :  09-07-1999>
 
 
 **Art. 370bis.** [abrogé] <L 1999-05-07/58, art. 2, 007;  En vigueur :  09-07-1999>
@@ -5128,12 +5132,13 @@ Le changement de prénoms produit ses effets à la date de l'établissement de l
 
 **Art. 370quater.** [abrogé] <L 1999-05-07/58, art. 2, 007;  En vigueur :  09-07-1999>
 
-# TITRE IX. [1 - De l'autorité parentale et de l'accueil familial.]1
+
+TITRE IX. [1 - De l'autorité parentale et de l'accueil familial.]1
 
 > 1: L 2017-03-19/08, art. 2, 076; En vigueur : 01-09-2017
 
 
-### Chapitre I  [1 - De l'autorité parentale.]1
+### Chapitre Ier  [1 - De l'autorité parentale.]1
 
 > 1: Inséré par L 2017-03-19/08, art. 3, 076; En vigueur : 01-09-2017
 
@@ -5445,7 +5450,8 @@ A défaut d'accord, chacun des accueillants familiaux peut saisir le tribunal de
 > 1: Inséré par L 2017-03-19/08, art. 16, 076; En vigueur : 01-09-2017
 
 
-# TITRE X. - DE LA MINORITE.DE LA TUTELLE ET DE L'EMANCIPATION.
+
+TITRE X. - DE LA MINORITE.DE LA TUTELLE ET DE L'EMANCIPATION.
 
 ### Chapitre I DE LA MINORITE.
 
@@ -5900,7 +5906,8 @@ Le procureur du Roi peut également demander la révocation de l'émancipation, 
 
 <Abrogé par L 2013-03-17/14, art. 25, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)> 
 
-# TITRE XI. - [1 De la majorité et des personnes protégées]1
+
+TITRE XI. - [1 De la majorité et des personnes protégées]1
 
 > 1: L 2013-03-17/14, art. 26, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
@@ -6177,7 +6184,7 @@ K. Les significations et notifications à faire aux personnes pourvues d'un admi
 > 1: L 2013-03-17/14, art. 28, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
 
-#### Section 1  - [1 Champ d'application]1
+#### Section 1re  - [1 Champ d'application]1
 
 > 1: Inséré par L 2013-03-17/14, art. 29, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
@@ -6549,7 +6556,7 @@ CHAPITRE II/1. - [1 De l'administration]1
 > 1: Inséré par L 2013-03-17/14, art. 52, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
 
-#### Section 1  [1 Définitions]1
+#### Section 1re  [1 Définitions]1
 
 > 1: Inséré par L 2013-03-17/14, art. 53, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)
 
@@ -7451,7 +7458,7 @@ Si, dans l'exercice de sa mission, la personne de confiance cause un préjudice 
 <Abrogé par L 2013-03-17/14, art. 120, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)> 
 
 
-Art. 515.
+**Art. 515.**
 
 <Abrogé par L 2013-03-17/14, art. 120, 061; En vigueur : 01-09-2014 (L 2014-05-12/02, art. 22)> 
 

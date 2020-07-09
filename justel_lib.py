@@ -173,11 +173,12 @@ def justel_doc_scan(url):
 def store_md(output_dir, md, meta):
     basepath = os.path.abspath(output_dir)
     slug_type = slugify(meta['dtype'], max_length=12, word_boundary=True)
+    pub_date = datetime.strptime(meta['pubDate'], '%d-%m-%Y').strftime('%Y-%m-%d')
     if 'subTitle' in meta and meta['subTitle']:
         slug_title = slugify(meta['title'] + '-' + meta['subTitle'], max_length=60, word_boundary=True)
     else:
         slug_title = slugify(meta['title'], max_length=25, word_boundary=True)
-    filename = f"{slug_type}-{meta['pubDate']}-{meta['lang']}-{slug_title}-{meta['number']}.md"
+    filename = f"{slug_type}_{pub_date}_{meta['lang']}_{slug_title}_{meta['number']}.md"
     filepath = os.path.join(basepath, meta['number'][:4], filename)
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, "w") as f:

@@ -15,6 +15,7 @@ It's also readily convertible to other formats, while being human readable in it
 any specialized toolset other then a basic text editor.
 
 ### Installation
+#### Locally
 Once the repository cloned locally, and you have python3.8 and pipenv installed:
 ```bash
 # Go to project directory
@@ -24,6 +25,18 @@ Once the repository cloned locally, and you have python3.8 and pipenv installed:
 > pipenv install --dev
 ```
 Present tool has only been used, and tested, on GNU/Linux (Debian).
+
+
+#### With Docker
+
+Compile it then run it:
+```bash
+# Go to project directory
+> cd [project_dir]
+
+# Compile it with
+> docker build -t be_law_tools .
+```
 
 ### Usage
 This toolset needs python3.8 and pipenv.
@@ -42,6 +55,30 @@ Options:
   --help                          Show this message and exit.
 ```
 
+
+#### Extraction
+##### Without Docker
+To extract, provide a start (optionally end date and an output dir):
+```bash
+# Quick extract last year to ./ouput directory
+> pipenv run ./justel2md.py --debug scan -s 2020-01-01
+
+# Specific extraction
+> pipenv run ./justel2md.py --debug scan -s 1804-01-01 -e 1850-01-01 -o /some_output_dir
+```
+
+##### Using Docker
+```bash
+# Then run with
+> docker run -it --rm -v /some_output_dir:/opt/be_law_tools/output be_law_tools --debug scan -s 2020-01-01
+```
+
+In a dev environnement for local tests before commiting, map your local repo like this:
+```bash
+# MY_WORKDIR being you local repo
+> docker run -it --rm -v /MY_WORKDIR:/opt/be_law_tools/ be_law_tools --debug scan -s 2020-01-01
+```
+
 ### Test
 ```bash
 > cd [project_dir]
@@ -58,14 +95,3 @@ To execute the tests:
 # Run behave directly
 > pipenv run behave tests/behave
 ```
-
-### Extraction
-To extract, provide a start and end date and an output dir:
-```bash
-# Quick extract last year to ./ouput directory
-> pipenv run ./justel2md.py --debug scan -s 2020-01-01
-
-# Specific extraction
-> pipenv run ./justel2md.py --debug scan -s 1804-01-01 -e 1850-01-01 -o /some_output_dir
-```
-

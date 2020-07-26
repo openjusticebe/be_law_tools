@@ -15,15 +15,19 @@ from reg_lib import (
 
 logger = logging.getLogger(__name__)
 
+def clean_text(text):
+    for mod in RE_CLEANUP:
+        (reg, rep) = mod
+        text = re.sub(reg, rep, text, flags=re.M)
+    return text
+
 
 def format_text(text, clean=False):
     for mod in RE_FORMATS:
         (reg, rep) = mod
         text = re.sub(reg, rep, text, flags=re.M)
     if clean:
-        for mod in RE_CLEANUP:
-            (reg, rep) = mod
-            text = re.sub(reg, rep, text, flags=re.M)
+        text = clean_text(text)
     return text
 
 
@@ -57,11 +61,24 @@ def meta_get(raw_text, html_text, data={}):
 def soup2meta(soup, meta_input={}):
     meta_table = soup.find('body').findChildren('table', recursive=False)[1]
     content = meta_table.findAll('th')[1]
+
+    header = soup.find('body').findChildren('table', recursive=False)[0]
+    archived_version = header.findAll('tr')[2].findAll('td')[4].find('a')
+    if archived_version: archived_version = archived_version.getText()
+
+    if "wetgeving" in header.getText():
+        meta_in["language"] = "NL"
+    elif "Législation" in header.getText():
+        meta_in["language"] = "FR"
+
     for br in content.find_all('br'):
         br.replace_with("\n")
-    raw_text = content.getText()
-    return meta_get(raw_text, content, meta_input)
 
+    raw_text = content.getText()
+    if archived_version:
+        raw_text += "\n" + archived_version
+
+    return meta_get(raw_text, content, meta_input)
 
 def soup2md(soup, clean=False, meta_input={}, do_return_meta=False):
     # Get meta

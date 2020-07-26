@@ -1,6 +1,5 @@
 # Formating text
 RE_FORMATS = [
-    (r"\s*(Texte|Tekst)\s*(Table des matières|Inhoudstafel)\s*(Début|Begin)\s*", ""),
     (r"Art(icle|ikel)?\.*\s*(?P<artnum>[\d/a-z\-:\.]{1,20})\.", "**Art. \g<artnum>.**"),
     (r"^.*----------\s*$", ""),
     (r"^\u00A0{2}\((?P<refnum>\d{1,3})\)<(?P<ref>.*)>\s*$", "> \g<refnum>: \g<ref>\n\n"),
@@ -22,9 +21,10 @@ RE_FORMATS = [
     (r"<(?P<note>[^>]*)>", "`\g<note>`"),
 ]
 
-# Removing unbreakable spaces
+# Removing unbreakable spaces and first line (<th>) of text
 RE_CLEANUP = [
     (r"^\u00A0{2}\s*", "\n"),
+    (r"\s*(Texte|Tekst)\s*(Table des matières|Inhoudstafel)\s*(Début|Begin)\s*", ""),
 ]
 
 # Extracting metadata
@@ -36,4 +36,6 @@ RE_KEY_MASKS = [
     ('startDate', ".*(vigueur|Inwerkingtreding)\s*:\s*(?P<value>[\d\-]+)"),
     ('number', ".*(numéro|nummer)\s*:\s*(?P<value>[0-9AB]{10})"),
     ('source', ".*(Source|Bron)\s*:\s*(?P<value>.*)$"),
+    ('caseNumber', ".*Dossier\s*numéro\s*:\s*(?P<value>.*)$"),
+    ('archivedVersionCount', "\s*(?P<value>\d+)\s*version(s?)\s*archivée(s?)"),
 ]

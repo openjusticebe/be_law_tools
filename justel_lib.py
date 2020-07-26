@@ -205,10 +205,10 @@ def store_md(output_dir, md, meta):
     return filepath
 
 #this function extract metadata and main text (unformatted) of a justel page
-def extract_data(url, clean = True):
+def extract_data(uri, clean = True):
     #download
     while True:
-        r = requests.get(url, allow_redirects=False)
+        r = requests.get("http://www.ejustice.just.fgov.be/eli/"+uri, allow_redirects=False)
         if r.status_code == 200:
             break
         time.sleep(2)

@@ -67,9 +67,9 @@ def soup2meta(soup, meta_input={}):
     if archived_version: archived_version = archived_version.getText()
 
     if "wetgeving" in header.getText():
-        meta_in["language"] = "NL"
+        meta_input["language"] = "NL"
     elif "Législation" in header.getText():
-        meta_in["language"] = "FR"
+        meta_input["language"] = "FR"
 
     for br in content.find_all('br'):
         br.replace_with("\n")

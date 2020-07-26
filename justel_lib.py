@@ -201,3 +201,28 @@ def store_md(output_dir, md, meta):
     with open(filepath, "w") as f:
         f.write(md)
     return filepath
+
+#this function extract metadata and main text (unformatted) of a justel page
+def extract_data(url, clean = True):
+    #download
+    while True:
+        r = requests.get(url, allow_redirects=False)
+        if r.status_code == 200:
+            break
+        time.sleep(2)
+    soup = bs(r.text, 'html5lib')
+    #get metadata
+    meta = soup2meta(soup)
+    #get text
+    text_index = 0
+    table = soup.find('body').findChildren('table', recursive=False)[text_index]
+    while ((not table.find('tr').find('th')) or not (("Texte" in table.find('tr').find('th').getText()) or ("Tekst" in table.find('tr').find('th').getText()) )):
+        text_index = text_index + 1
+        table = soup.find('body').findChildren('table', recursive=False)[text_index]
+
+    for br in soup.find_all('br'):
+        br.replace_with("\n")
+    raw_text = table.getText()
+    if clean :
+        raw_text = clean_text(raw_text)
+    return raw_text, meta

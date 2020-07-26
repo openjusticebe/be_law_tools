@@ -15,6 +15,8 @@ from reg_lib import (
 
 logger = logging.getLogger(__name__)
 
+JUSTEL_LEVEL_HIERARCHY = ['part', 'book', 'title', 'chapter', 'section', 'subsection', 'article']#In english to be language neutral
+
 def clean_text(text):
     for mod in RE_CLEANUP:
         (reg, rep) = mod

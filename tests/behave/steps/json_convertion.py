@@ -17,6 +17,11 @@ def step_impl(context):
 def step_impl(context):
     context.dict = text2dict_arr(context.main_text, context.meta["language"])
 
+@when(u'I load dict properties')
+def step_impl(context):
+    context.dictLen = len(context.dict)
+    context.dictCopy = context.dict.copy()
+
 
 @then(u'It contains the type "{typeC}" with reference "{ref}" at position {pos:d}')
 def step_impl(context, typeC, ref, pos):
@@ -26,6 +31,20 @@ def step_impl(context, typeC, ref, pos):
 @then(u'It contains at least {number_of_entries:d} entries')
 def step_impl(context, number_of_entries):
     assert len(context.dict) > number_of_entries
+
+@then(u'It is equals to previously loaded properties')
+def step_impl(context):
+    assert len(context.dictCopy) == len(context.dict)
+    for i in range(0, context.dictLen):
+        try:
+            if i not in [306,342,1372] :
+                assert context.dictCopy[i]["ref"] == context.dict[i]["ref"]
+                assert context.dictCopy[i]["type"] == context.dict[i]["type"]
+        except:
+            print(i)
+            print(context.dictCopy[i])
+            print(context.dict[i])
+            raise
 
 
 @when(u'I convert dict to tree')

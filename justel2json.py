@@ -15,15 +15,19 @@ def main(argv):
     url = argv[0]
     output = None
     if(len(argv)>1): output = argv[1]
-
     """Extract the content of a justel url and convert it into a json as a tree structure."""
     raw_text,meta = extract_data(url)
+
+    cn = re.sub(r"\D", "", meta['caseNumber'])
 
     array = text2dict_arr(raw_text, meta["language"])
     tree = dict_arr2tree(array)
 
+    # Output
     if output :
-        serialize_tree(tree, output)
+        filepath = os.path.join(".", cn+"_"+meta["language"], "current.json")
+        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+        serialize_tree(tree, filepath)
     else :
         print(tree)
 
@@ -64,7 +68,7 @@ def identify_line(text, language):
     return None
 #-------------------------
 
-#post operations made after the instanciation of an element
+#post operations made after the instanciation of an element. It will parse the information related to an element modification
 def element_analyzing(element):
     if not element: return
     matches = re.match("(.|\n)*----------\n(?P<modifications>(.|\n)*)", element["text"])
@@ -81,9 +85,19 @@ def element_analyzing(element):
                 law_ref = matchesLine['reference'].strip()[:13]
                 element["modifications"].append({ "type": "update", "index" : matchesLine['num'], "law_reference" : law_ref, "complete_reference" : matchesLine['reference'].strip(), "applicationDate" : matchesLine['applicationDate'].strip() })
 
+
         element["text"] = element["text"].split("\n----------")[0]
         element["text"] = element["text"].split("----------")[0]
-            
+    
+
+    #matchesLine = re.match(".*(?P<num>[\d]{1,2})\)<Abrogé par L\s(?P<reference>.*);.*:(?P<applicationDate>.*)>", line)
+    element["text"] = element["text"].strip()
+    matchesLine = re.match("^.*<Abrogé par L\s(?P<reference>.*);.*:(?P<applicationDate>.*)>$", element["text"], flags=re.M)
+    if matchesLine:
+        law_ref = matchesLine['reference'].strip()[:13]
+        element["modifications"] = [{ "type": "delete", "law_reference" : law_ref, "complete_reference" : matchesLine['reference'].strip(), "applicationDate" : matchesLine['applicationDate'].strip() }]
+
+        
     return element
 
 def text2dict_arr(raw_text, language):

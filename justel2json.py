@@ -1,22 +1,31 @@
 #!/usr/bin/env python3
-import sys
+import click
 import logging
 import re
+import os
 import json
 
 from justel_lib import (
     extract_data,
+    extract_archive,
     JUSTEL_LEVEL_HIERARCHY,
 )
 
 logger = logging.getLogger(__name__)
 
-def main(argv):
-    url = argv[0]
-    output = None
-    if(len(argv)>1): output = argv[1]
+@click.group()
+def main():
+    pass
+
+@main.command()
+@click.argument('url')
+@click.option('-a', '--archives', 'archives', is_flag=True)
+@click.option('-c', '--clean', 'clean', is_flag=True)
+@click.option('-o', '--output', 'output', is_flag=True)
+def extract(url, archives, clean, output):
+    print("extract")
     """Extract the content of a justel url and convert it into a json as a tree structure."""
-    raw_text,meta = extract_data(url)
+    raw_text,meta = extract_data(url, clean)
 
     cn = re.sub(r"\D", "", meta['caseNumber'])
 
@@ -30,6 +39,24 @@ def main(argv):
         serialize_tree(tree, filepath)
     else :
         print(tree)
+
+    if not archives:
+        return
+
+    print("archives")
+    archivedVersionRange = range(1,int(meta['archivedVersionCount'])+1)
+    for version in archivedVersionRange:
+        text = extract_archive(cn, version, meta["language"].lower(), clean)
+        array = text2dict_arr(text, meta["language"])
+        tree = dict_arr2tree(array)
+
+        if output :
+            filepath = os.path.join(".", cn+"_"+meta["language"], str(version).zfill(3)+".json")
+            serialize_tree(tree, filepath)
+        else :
+            print(tree)
+        print(f"Done : {version}/{meta['archivedVersionCount']}")
+
 
 
 #-----------------------
@@ -172,4 +199,4 @@ def serialize_tree(tree, output):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    main()

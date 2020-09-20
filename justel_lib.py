@@ -83,12 +83,19 @@ def soup2meta(soup, meta_input={}):
     return meta_get(raw_text, content, meta_input)
 
 def soup2md(soup, clean=False, meta_input={}, do_return_meta=False):
+    #Determine the index for core text
+    text_index = 0
+    table = soup.find('body').findChildren('table', recursive=False)[text_index]
+    while ((not table.find('tr').find('th')) or (not "Texte" in table.find('tr').find('th').getText())):
+        text_index = text_index + 1
+        table = soup.find('body').findChildren('table', recursive=False)[text_index]
+
     # Get meta
     meta = soup2meta(soup, meta_input)
     text_meta = meta2md(meta)
 
     # Get text
-    table = soup.find('body').findChildren('table', recursive=False)[3]
+    table = soup.find('body').findChildren('table', recursive=False)[text_index]
     for br in soup.find_all('br'):
         br.replace_with("\n")
     raw_text = table.getText()
@@ -216,6 +223,25 @@ def extract_data(uri, clean = True):
     #get metadata
     meta = soup2meta(soup)
     #get text
+    raw_text = get_text(soup, clean)
+    return raw_text, meta
+
+def extract_archive(cn, version, langage = 'nl', clean = True):
+    #download
+    archive_url = "http://www.ejustice.just.fgov.be/cgi_loi/arch_a1.pl?language="+langage+"&cn="+cn+"&caller=archive&la=F&ver_arch="+str(version).zfill(3)
+    while True:
+        r = requests.get(archive_url, allow_redirects=False)
+        if r.status_code == 200:
+            break
+        time.sleep(2)
+
+    soup = bs(r.text, 'html5lib')
+    #get text
+    raw_text = get_text(soup, clean)
+    return raw_text
+
+def get_text(soup, clean = True):
+    #get text
     text_index = 0
     table = soup.find('body').findChildren('table', recursive=False)[text_index]
     while ((not table.find('tr').find('th')) or not (("Texte" in table.find('tr').find('th').getText()) or ("Tekst" in table.find('tr').find('th').getText()) )):
@@ -227,4 +253,4 @@ def extract_data(uri, clean = True):
     raw_text = table.getText()
     if clean :
         raw_text = clean_text(raw_text)
-    return raw_text, meta
+    return raw_text
